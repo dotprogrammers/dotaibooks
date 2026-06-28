@@ -1,0 +1,593 @@
+                                                                         Unlock
+                                                                   exclusive benefits
+
+
+
+ITIL
+                                                                  with PeopleCert Plus!
+            ®
+                                                                     Join Now!
+
+
+Product               VERSION 5
+
+
+
+
+Global Best Practice
+        For all organizations and people aiming
+        to create excellent digital products!
+
+
+
+
+Sample
+Paper 2
+Questions
+
+
+
+
+                                            Official Training Materials
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 5.0 (March 2026)
+
+Copyright © 2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by
+PeopleCert. Information identified as being under a Creative Commons license may be used in accordance with that license. ITIL®, PRINCE2®,
+DEVOPS INSTITUTE ®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this
+publication, no representation or warranty (either express or implied) is given by PeopleCert with respect to the completeness, accuracy or suitability of
+the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage whatsoever relating to such
+information or advice.
+
+
+
+
+2     ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+Instructions
+1. You should attempt all 40 multiple choice questions (MCQs).
+   Each question is worth one mark.
+2. There is only one correct answer per question.
+3. You need to answer 28 questions correctly to pass the exam.
+4. You have 90 minutes to complete this exam.
+5. This is an 'open book' exam. You can use the ITIL Product (Version 5) Official Book.
+6. Use the Scenario Booklet ITIL Car Rental (ICR) Scenario for additional context.
+7. No materials are allowed other than the exam paper, the ITIL Product (Version 5) Official
+   Book, and the Scenario Booklet.
+8. Do not use information from one question to answer another.
+
+
+
+
+                                     ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   3
+1.         A digital product vendor regularly reviews how its product helps customers achieve their
+           desired outcomes. Before prioritizing new features, the team evaluates whether
+           proposed changes solve real user problems, improve service outcomes, or strengthen
+           long-term benefits for customers and service providers.
+           Which ITIL Guiding Principle is being applied in this scenario?
+           A. Progress iteratively with feedback
+           B. Optimize and automate
+           C. Focus on value
+           D. Keep it simple and practical
+
+2.         Which statement is NOT TRUE about digital products?
+           A. They rely on software and virtual infrastructure
+           B. They can be diagnosed without on-site intervention
+           C. They depend on physical delivery
+           D. They are used and improved simultaneously
+
+3.         Which of the following statement is TRUE about the digital product and service lifecycle?
+           A. The scope and order of lifecycle management activities are fixed and do not change
+           B. Value chain activities are always performed in a strict sequence
+           C. Operate, deliver, and support must occur one after another in a strict sequence
+           D. Lifecycle management activities should be managed in a holistic and integrated way
+
+4.         An organization has completed the design of a new digital self-service portal. The team
+           deploys the solution into the live environment, migrating user data from the old system,
+           training support staff, and validating that the service meets agreed performance and
+           security requirements.
+           Which lifecycle management activity is being PRIMARILY performed in this scenario?
+           A. Build
+           B. Transition
+           C. Operate
+           D. Support
+
+5.         An IT service provider onboards a new user to its managed workplace service. The
+           provider issues user accounts and access to applications and knowledge bases, supplies
+           non-returnable equipment and user guides, and conducts onboarding sessions and
+           ongoing consultations to help users work effectively with the service.
+           Which lifecycle management activity BEST describes the work being carried out in this
+           scenario?
+           A. Deliver
+           B. Transition
+           C. Operate
+           D. Support
+
+
+
+
+4    ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+6.   Users of an online booking system report intermittent access issues during peak hours. A
+     support team responds to user queries, restores access where possible, and investigates
+     alerts generated by system monitoring tools to identify and resolve the underlying cause
+     of the issues.
+     Which lifecycle management activity BEST describes the work being carried out in this
+     scenario?
+     A. Deliver
+     B. Transition
+     C. Operate
+     D. Support
+
+7.   An organization is exploring opportunities to expand its digital services. Before deciding
+     what to develop next, a team works with internal and external stakeholders to
+     understand their expectations, identify unmet needs, and document requirements that
+     will guide future product and service decisions.
+     Which management practice MOST enables this activity in this scenario?
+     A. Architecture management
+     B. Business analysis
+     C. Portfolio management
+     D. Risk management
+
+8.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+     question.
+     ICR is considering enhancements to its customer-facing booking and rental platform
+     following recurring friction points observed in several regions. Before committing to new
+     features, Omar convenes a cross-functional working group to better understand the
+     broader context. User personas are revisited to clarify who the primary users are in
+     different markets and what problems ICR is trying to solve when booking or modifying
+     rentals.
+     What should be the NEXT step?
+     A. Engage with diverse stakeholders to strengthen the overall perspective
+     B. Convert the insights into a clearly articulated product direction and intent
+     C. Examine current services and components to identify interdependencies
+     D. Share the rationale and expected benefits of the proposed
+
+9.   During a discovery exercise for a new digital product feature, decisions are made
+     primarily based on senior stakeholders’ opinions and past experience. After
+     implementation, the feature shows limited adoption.
+     Which recommendation for success should the service provider focus on MOST to avoid
+     similar outcomes in future?
+     A. Enhancing early cooperation between business and technical teams during discover
+     B. Promoting frequent, low-risk experimentation by reducing formal evaluation and
+        controls
+     C. Increasing senior leadership involvement to speed up approvals and secure resources
+     D. Defining testable assumptions and tracking performance indicators during validation
+
+
+
+
+                                       ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   5
+10.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            ICR is exploring a new mobile feature to allow customers to modify bookings in real time.
+            A senior leader is convinced it will improve loyalty and pushes the team to move forward
+            quickly. Without further analysis, the feature is introduced to users. Even with new
+            features, adoption is low and customer satisfaction remains unchanged.
+            Which recommendation is NOT being followed by leadership?
+            A. Strong leadership sponsorship
+            B. Scalable infrastructure and practices
+            C. Effective supplier relationship management
+            D. Evidence‑based decision-making
+
+11.         A digital product team redesigns a customer portal based largely on internal assumptions
+            and feedback from a small group of internal stakeholders. After release, users report that
+            key tasks are difficult to complete, and adoption remains low.
+            Which action would BEST address the issues described in this scenario?
+            A. Selecting a single design framework to standardize future solution design
+            B. Accelerating delivery cycles so improvements can be released more frequently
+            C. Taking design decisions in validated research of real user behaviours and needs
+            D. Increasing governance controls to ensure designs follow approved standards
+
+12.         A new digital service is being designed that will significantly change how staff interact
+            with customers and perform daily work. Roles will shift, new skills will be required, and
+            users will need to adapt to new ways of working for the service to be successfully
+            adopted.
+            How can organizational change management effectively support the ‘design’ activity in
+            this scenario?
+            A. By defining user responsibilities and behaviours that reduce the risk of misuse and
+               protect sensitive information
+            B. By encouraging feedback from staff and using lessons learned to refine how future
+               changes are designed
+            C. By designing the role, process, and behavioural changes needed for effective service
+               operation and adoption
+            D. By eliciting and documenting user needs and expectations to shape how the service
+               should be used
+
+
+
+
+6     ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+13.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      After identifying problems in the booking journey, ICR considers adding subscription-style
+      rentals and flexible insurance options. Omar wants to ensure that previous insights are
+      still relevant. The team reviews the product roadmap and backlog, analyses booking
+      trends and regional usage data, benchmarks competitors, and revisits recent customer
+      interviews and survey findings.
+
+      Which step of the ‘design’ activity is being performed in the scenario?
+      A. Conducting a market demand assessment to determine whether continued
+         investment in new rental models is justified
+      B. Preparing and organizing the methods, resources, and stakeholders required to
+         initiate structured service design work
+      C. Converting planned designs into tested, version-controlled artifacts through iterative
+         sprints, continuous feedback
+      D. Communicating agreed solution specifications and implementation plans to
+         stakeholders for alignment
+
+14.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR is preparing a new digital capability to support future mobility services across several
+      regions. The solution was designed primarily by architects and developers, with a strong
+      focus on technical feasibility and speed of delivery. While the proposed solution meets
+      functional expectations, there is uncertainty about how it will perform once it is widely
+      used and supported in live environments. The Chief Information Officer (CIO) wants to
+      reduce the risk of rework, service disruption, and poor adoption once the capability is
+      introduced.
+      Which action would BEST address this concern before the solution progresses further?
+      A. Engage operation teams during design so operational needs are addressed early
+      B. Increase the frequency of solution reviews to accelerate feedback from senior
+         leadership
+      C. Finalize the solution documentation so delivery teams can prepare for implementation
+      D. Proceed with a limited rollout to identify operational gaps during early use
+
+15.   An organization plans to buy external software and cloud services to support a new
+      digital product. Before procurement begins, the team evaluates potential service
+      providers, selects a suitable external service provider, negotiates agreements, and
+      ensures that contractual terms support ongoing collaboration and service expectations.
+      Which management practice MOST enables the activity being performed in this scenario?
+      A. Architecture management
+      B. Service financial management
+      C. Supplier management
+      D. IT asset management
+
+
+
+
+                                        ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   7
+16.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            ICR has selected a sourcing approach for new digital capabilities after reviewing internal
+            and external options. Suitability, risks, and alignment with operating principles have been
+            agreed. Before any resources are made available to delivery teams, ICR wants to ensure
+            expectations, responsibilities, and obligations are clear and enforceable.
+            What should ICR do NEXT?
+            A. Formalize responsibilities, obligations, and conditions with the selected parties
+            B. Reassess sourcing options and review supplier performance information
+            C. Validate supplier capabilities against operational and regulatory requirements
+            D. Update internal records to reflect sourcing decisions and approvals
+
+17.         An organization procures external technology services through multiple suppliers.
+            Although contracts are in place, sourcing decisions are often driven by short-term cost
+            pressures and individual departmental needs. Over time, the organization experiences
+            duplicated purchases, limited visibility of supplier performance, and difficulty explaining
+            how procurement decisions support broader business objectives.
+            Which action would BEST address the issues described in this scenario?
+            A. Expanding risk assessments to cover regulatory and ethical compliance requirements
+            B. Aligning sourcing decisions more closely with organizational strategy and objectives
+            C. Strengthening staff skills through additional negotiation and supplier training
+            D. Introducing automation tools to reduce manual procurement tasks and approval
+               times
+
+18.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            ICR selected a cloud analytics provider under a multi-year agreement to support its digital
+            booking platform. Over time, customer behaviour and data usage patterns evolved
+            significantly. However, the organization discovered that modifying or exiting the contract
+            would incur substantial penalties, making it difficult to adapt its sourcing strategy.
+            Looking back, which action during acquisition planning would MOST effectively have
+            reduced this risk?
+            A. Enforce traceability and accountability throughout the acquisition chain
+            B. Design contracts and sourcing models with flexibility in mind
+            C. Verify that acquisition outputs satisfy the needs of all downstream professionals
+            D. Engage procurement and supplier experts early during planning and design stages
+
+
+
+
+8     ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+19.   A digital product team is building a new online service that will process sensitive
+      customer data. During development, the team needs to ensure that access controls, data
+      protection mechanisms, and the secure handling of information are built into the product
+      and verified through testing before release.
+      How would a management practice MOST effectively support the ‘build’ activity in this
+      scenario?
+      A. By embedding and validating security controls as part of the product build and testing
+         activities
+      B. By collecting feedback from incidents and applying lessons learned to future product
+         enhancements
+      C. By defining acceptable user behaviours to reduce the likelihood of security incidents
+         during service use
+      D. By documenting user needs to determine how securely information should be
+         accessed
+
+20.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR has finalized the design of a new AI-enabled feature in its unified mobile app. The
+      required cloud capacity and specialist skills have been confirmed. Sam’s team develops
+      the feature within the shared app framework, integrates it with booking and payment
+      modules, performs unit and integration testing, validates security controls, and prepares
+      operational runbooks before pilot launch.
+      Which step of the ‘build’ activity is PRIMARILY being applied?
+      A. Assess solution design to confirm alignment with architecture and resource feasibility
+      B. Plan building and testing activities and confirm resource availability
+      C. Execute building and testing plans
+      D. Deliver solutions and supporting documentation for transition
+
+21.   A product team frequently releases updates to a digital service, but each release
+      introduces unexpected defects. Fixes for one issue often cause new problems elsewhere,
+      deployments require significant manual effort, and the team lacks the confidence to
+      release changes quickly. As a result, delivery slows down and customer-impacting
+      incidents increase.
+      Which recommendation would BEST address the issues described in this scenario?
+      A. Selecting an architectural style that supports future scalability and extensibility
+      B. Instrumenting the service with dashboards and alerts to improve operational visibility
+      C. Expanding documentation to ensure all stakeholders understand the product design
+      D. Automating build, test, and deployment steps to verify changes and reduce manual
+         errors
+
+
+
+
+                                        ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   9
+22.       A new version of a digital service is released into the live environment after development
+          and deployment activities are completed. Shortly after launch, users report slow
+          response times and security weaknesses that prevent normal use of the service.
+          Investigation shows that these issues could have been identified before release if
+          structured checks against agreed requirements had been carried out.
+          How would service validation and testing practice have MOST effectively prevented the
+          issues described in this scenario?
+          A. Planning release timing and coordinating related stakeholder communications
+          B. Preparing technical infrastructure to support the transitioned service
+          C. Verifying the service meets agreed requirements before release
+          D. Reviewing transition outcomes to capture feedback for future improvements
+
+23.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          ICR has completed building and testing a new autonomous ride booking capability within
+          its unified mobile app. Before releasing it across all markets, Omar coordinates a
+          controlled pilot in two countries. The team prepares user training materials, aligns
+          incident response procedures, confirms monitoring dashboards are active, and schedules
+          deployment windows. Resource availability for operational support is verified.
+          Which step of the ‘transition’ activity is PRIMARILY being applied in this scenario?
+          A. Assess solutions and transition requirements
+          B. Plan transition activities and confirm resource availability
+          C. Execute transition plans
+          D. Communicate transition results to stakeholders
+
+24.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          Sam confirms that system diagrams, interface details, configuration settings, and
+          deployment instructions exist. During review, Omar finds that configuration values differ
+          between repositories, version references are inconsistent, and responsibility for certain
+          components is unclear. The go-live window is approaching, and Max asks for assurance
+          that operations will not struggle after release.
+          What should Omar do before approving release?
+          A. Align artifacts with defined ownership and consistent versions
+          B. Expand monitoring to detect configuration differences
+          C. Perform additional integration validation across regions
+          D. Confirm release timing and adjust documents later
+
+25.       A university is implementing a new cloud-based student learning portal. The team assigns
+          a responsible owner for each task, estimates the effort required and documents
+          dependencies between tasks to avoid bottlenecks.
+          Which output is MOST LIKELY being created during this activity?
+          A. Transition plans
+          B. Operational plans
+          C. Requirements assessment report
+          D. IT asset registers
+
+
+
+
+10    ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+26.   A live digital service experiences repeated service disruptions that are restored quickly,
+      but the same issues continue to occur. Over time, temporary fixes increase operational
+      effort, and overall service reliability gradually declines.
+      How can the problem management practice MOST effectively help address the situation
+      described?
+      A. By adjusting monitoring thresholds and dashboards to detect and resolve service
+         issues earlier
+      B. By analysing recurring incidents and improving how known issues are controlled and
+         prevented
+      C. By coordinating operational changes that apply temporary workarounds consistently
+      D. By reviewing service performance data to identify trends for future improvement
+         planning
+
+27.   During the daily operation of a live digital service, the team closely observes system
+      behaviour, tracks service performance against agreed thresholds, and records service
+      disruptions as they occur. This information is reviewed to ensure the service continues to
+      meet expected levels of reliability.
+      Which output of the ‘operate’ activity is MOST directly produced by the work described in
+      this scenario?
+      A. Updated operational procedures reflecting changes in how the service is supported
+      B. Performance metrics, event records, and logs generated from live service monitoring
+      C. Workarounds and known-issue records created to reduce the impact of recurring
+         faults
+      D. Improvement recommendations derived from analysing operational data over time
+
+28.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR is stabilizing its global booking platform after a major expansion into new markets.
+      Omar notices that although the system is currently stable, recurring activities such as
+      performance reviews, security inspections, and cost evaluations are being handled
+      inconsistently across regions. To address this, the team establishes a structured cadence
+      of recurring platform activities throughout the year. For each activity, they identify the
+      tools required, the specific expertise needed, and ensure individuals are formally
+      accountable.
+      Which step of the ‘operate’ activity does this scenario describe?
+      A. Communicate transition results to stakeholders
+      B. Execute operational monitoring and remediation
+      C. Plan operations activities and confirm resource availability
+      D. Communicate operational results to stakeholders
+
+
+
+
+                                       ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   11
+29.       A digital service is operating in a live environment, but operational teams rely on isolated
+          tools and informal updates to understand service health. Performance issues are often
+          discovered only after users are affected, and teams struggle to explain trends. As a result,
+          decisions are reactive and service reliability varies.
+          Which critical success factor would BEST help address the situation described in this
+          scenario?
+          A. Using elastic infrastructure to maintain performance while controlling operational
+             costs
+          B. Feeding lessons learned back into runbooks, alerts, and safeguards to improve
+             resilience
+          C. Embedding security checks and compliance controls into everyday operational
+             activities
+          D. Establishing end-to-end visibility with shared operational metrics and performance
+             indicators
+
+30.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          ICR has expanded its mobile platform rapidly to support new mobility services. To meet
+          tight release timelines, teams introduced temporary architectural compromises,
+          incomplete documentation, and short-term fixes that were never revisited. Over time,
+          service instability increases. Incident resolution takes longer because underlying
+          dependencies are poorly understood.
+          Which recommendation should be applied to address this situation?
+          A. Structure data before implementing AI
+          B. Treat technical debt as a serious risk
+          C. Focus on quality and speed
+          D. Design teams based on the organization’s context
+
+31.       During day-to-day service delivery, users contact the organization to ask questions about
+          how to use the service, report issues with access, and request guidance on available
+          options. A centralized team records these interactions, provides initial assistance where
+          possible, and ensures that requests and issues are routed appropriately for further
+          handling.
+          Which management practice is MOST directly responsible for the activities described in
+          this scenario?
+          A. Incident management
+          B. Service request management
+          C. Service desk
+          D. Relationship management
+
+32.       A service provider has reviewed agreed service commitments, including service levels,
+          outstanding service requests, and recent events that could affect delivery. Now, based on
+          this review, the provider decides how services will be delivered and what resources and
+          tools are required.
+          Which output is MOST directly produced by this activity?
+          A. Delivery readiness assessment report
+          B. User feedback records
+          C. Delivery plans and procedures
+          D. Delivery records and performance reports
+
+
+
+12    ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+33.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR has successfully transitioned a new subscription-based rental model into live
+      environments. Before activating it for customers in three regions, Anna reviews existing
+      service level agreements, verifies that the subscription module supports agreed booking
+      commitments, confirms multilingual support coverage, and checks that sufficient
+      customer support agents are scheduled for launch week.
+      Which step of the ‘deliver’ activity is PRIMARILY being applied?
+      A. Assess service delivery commitments and available solutions
+      B. Identify and confirm delivery plan and resource availability
+      C. Execute delivery plans and report delivery status to stakeholders
+      D. Define vendor–partner responsibilities for app-centric delivery
+
+34.   A service provider regularly introduces improvements to how services are delivered, such
+      as new request workflows, updated communication templates, and revised fulfilment
+      steps. Although each change is intended to improve efficiency, users and delivery staff
+      report growing frustration. Feedback indicates confusion about what has changed,
+      reduced confidence in the service, and declining satisfaction during periods of frequent
+      updates.
+      Which action would BEST help address the situation described in this scenario?
+      A. Increasing the level of automation used to fulfil service requests
+      B. Applying delivery improvements to a limited group first and adjusting the approach
+         based on early feedback
+      C. Updating service agreements to clearly document the latest delivery processes
+      D. Expanding feedback surveys to collect more detailed user opinions
+
+35.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR has introduced AI-enabled self-service features in its unified mobile app to speed up
+      booking changes and subscription upgrades. Although automation rates are high,
+      customer satisfaction has declined. Users report frustration when complex cases cannot
+      be escalated quickly to human agents.
+      Which action would BEST align with the practical recommendations for effective delivery?
+      A. Increase automation coverage further to reduce operational costs
+      B. Deploy AI self-service while defining clear escalation thresholds to human support
+      C. Reduce monitoring of delivery metrics to focus on feature innovation
+      D. Delay customer access to new features until automation reaches 95% resolution
+
+36.   A live software application occasionally requires configuration changes or emergency
+      fixes to restore normal service or support recovery after major incidents. Applying such
+      changes without analysing risks associated with such changes may cause instability in the
+      live environment.
+      How does the change enablement practice MOST effectively support this situation?
+      A. By deploying fixes into the live environment quickly to reduce disruption
+      B. By monitoring the impact of fixes after they are applied to confirm stability
+      C. By assessing, authorizing, and coordinating changes before fixes are applied
+      D. By analysing the underlying causes of issues to prevent recurrence
+
+
+
+
+                                      ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited   13
+37.       A software product offers user support through email, chat, phone, and social media, but
+          each channel is handled using separate tools and workflows. Requests are sometimes
+          duplicated, conversation history is fragmented, and response times vary widely when
+          demand increases in one channel but available staff are assigned elsewhere. Team
+          leaders lack a clear, real-time view of overall workload and struggle to rebalance
+          resources during peak periods.
+          Which action would BEST address the issues described in this scenario?
+          A. Increasing the number of support agents available during peak demand periods
+          B. Consolidating all support channels into a single platform with unified routing and
+             visibility
+          C. Expanding self-service options to reduce the volume of user contacts
+          D. Introducing stricter escalation rules for high-priority support requests
+
+38.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          After launching a new subscription feature in its unified mobile app, ICR detects an
+          unexpected spike in failed payment transactions in one region. The monitoring system
+          flags the issue, and the support team evaluates its impact on customers and revenue.
+          They classify the issue as high priority and determine that it is affecting a significant
+          number of active users.
+          Which step of the ‘support’ activity is PRIMARILY being applied?
+          A. Identify and assess incidents and disasters
+          B. Respond to incidents/disasters and restore normal operations and delivery
+          C. Review and report support actions
+          D. Execute operational plans and report operational status to stakeholders
+
+39.       A software company specializes in developing custom applications for individual
+          enterprise customers. Each solution is tailored to the customer’s requirements.
+          Customers are actively involved in shaping the solution and validating outcomes, while
+          the software company designs and builds the product.
+          In this operating model, who is typically responsible for the ‘transition’ activity?
+          A. The customer and the software provider jointly
+          B. The customer’s business users only
+          C. The software development team alone
+          D. An external managed service provider after handover
+
+
+
+
+14    ITIL® Product | Sample Paper 2 | Copyright © PeopleCert International Limited
+Thank you
+for completing this course!
+Please take a few minutes to give us your feedback on your
+experiences and learning from the course by completing
+the online course evaluation survey here.
+
+
+
+
+                                    PeopleCert has been accredited by Lloyd’s Register,
+                                    UK (now LRQA), in accordance with ISO 14001 for
+    ESG                             Environmental Management since 2006. Recognized
+    Commitment                      through numerous awards, we remain committed to
+                                    ESG leadership and the preservation of our planet.
+

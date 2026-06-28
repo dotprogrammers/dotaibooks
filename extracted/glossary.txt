@@ -1,0 +1,871 @@
+                                                                     Unlock
+                                                               exclusive benefits
+
+
+
+ITIL
+                                                              with PeopleCert Plus!
+        ®
+                                                                 Join Now!
+
+
+Product           VERSION 5
+
+
+
+
+Global Best Practice
+    For all organizations and people aiming
+    to create excellent digital products!
+
+
+
+
+Glossary
+
+
+
+
+                                        Official Training Materials
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 5.0 (March 2026)
+
+Copyright © 2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by
+PeopleCert. Information identified as being under a Creative Commons license may be used in accordance with that license. ITIL®, PRINCE2®,
+DEVOPS INSTITUTE®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this
+publication, no representation or warranty (either express or implied) is given by PeopleCert with respect to the completeness, accuracy or suitability of
+the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage whatsoever relating to such
+information or advice.
+
+
+
+
+2     ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+acceptance criteria                                         availability
+A list of minimum requirements that a service               The ability of an IT service or other
+or service component must meet for it to be                 configuration item to perform its agreed
+acceptable to key stakeholders.                             function when required.
+
+agentic AI                                                  availability management practice
+AI systems that are designed to act on behalf of            The practice of ensuring that services deliver
+users by autonomously performing predefined                 agreed levels of availability to meet the needs
+tasks within agreed boundaries, while                       of customers and users.
+remaining subject to human oversight and
+governance.                                                 band of visibility
+                                                            The sum of the aspects of the service
+AI governance                                               consumer organizations visible to the service
+The system by which an organization directs,                provider, and the aspects of the service
+controls, and monitors the use of artificial                provider organizations visible to the service
+intelligence to ensure that AI-enabled digital              consumer.
+products and services create value while
+remaining ethical, secure, compliant, and                   baseline
+aligned with organizational objectives.                     A report or metric that serves as a starting
+                                                            point against which progress or change can be
+AI maturity                                                 assessed.
+The extent to which an organization is able to
+effectively, responsibly, and consistently use AI           Behaviour‑Driven Development (BDD)
+capabilities to support its objectives, including           A software development method that
+governance, data quality, skills, processes, and            emphasizes behaviour that is meaningful to
+ethical considerations.                                     stakeholders rather than low‑level unit
+                                                            functionality. For example, instead of writing
+architecture management practice                            tests in a programmer‑centric language, BDD
+The practice of providing an understanding of               encourages the use of a ubiquitous,
+all the different elements that make up an                  domain‑specific language (DSL) that can be
+organization and how those elements relate to               read and understood by developers, QA
+one another.                                                engineers, product owners, and even
+                                                            non‑technical business analysts.
+architecture principles
+A set of norms and rules for the use and                    best practice
+deployment of all resources and assets across               A way of working that has been proven to be
+an organization.                                            successful by multiple organizations.
+
+Artificial Intelligence (AI)                                big data
+The capability of digital systems to perform                The use of very large volumes of structured and
+tasks that normally require human intelligence,             unstructured data from a variety of sources to
+such as learning from data, recognizing                     gain new insights.
+patterns, making predictions, or supporting
+decision-making.                                            business analysis practice
+                                                            The practice of analysing a business or some
+asset register                                              element of a business, defining its needs and
+A database or list of assets, capturing key                 recommending solutions to address these
+attributes such as ownership and financial                  needs and/or solve a business problem, and
+value.                                                      create value for stakeholders.
+
+
+
+
+                                                    ITIL® Product | Glossary | Copyright © PeopleCert International Limited   3
+business case                                                                 Change‑Data‑Capture (CDC)
+A justification for expenditure of organizational                             A method that tracks every change in the
+resources, providing information about costs,                                 source database so that related systems can
+benefits, options, risks, and issues.                                         stay up to date almost instantly. It enables
+                                                                              real-time data replication with minimal
+Business Impact Analysis (BIA)                                                performance impact and ensures that each
+A key activity in the practice of service                                     change is processed once. This approach is
+continuity management that identifies vital                                   widely used for analytics, microservice
+business functions and their dependencies.                                    communication, and database migrations.
+
+Business Relationship Manager (BRM)                                           cloud computing
+A role responsible for maintaining good                                       A model for enabling on-demand network
+relationships with one or more internal                                       access to a shared pool of configurable
+customers.                                                                    computing resources that can be rapidly
+                                                                              provided with minimal management effort or
+capability
+                                                                              provider interaction.
+The ability of an organization, person, process,
+application, configuration item, or IT service to                             complexity thinking
+carry out an activity.                                                        An approach to analysis and decision-making
+                                                                              based on the recognition and understanding of
+capacity and performance management
+                                                                              the various levels of complexity inherent in the
+practice
+                                                                              systems and the context in which they operate.
+The practice of ensuring that services achieve
+agreed and expected performance levels,                                       compliance
+satisfying current and future demand in a                                     The act and result of ensuring that a standard
+cost-effective way.                                                           or set of guidelines is followed, or that proper,
+                                                                              consistent accounting or other practices are
+change
+                                                                              being employed.
+The addition, modification, or removal of
+anything that could have a direct or indirect                                 confidentiality
+effect on products and services.                                              A security objective that ensures information is
+                                                                              not made available or disclosed to
+change authority
+                                                                              unauthorized entities.
+A person or group responsible for authorizing a
+change.                                                                       configuration
+                                                                              An arrangement of Configuration Items (CIs) or
+change enablement practice
+                                                                              other resources that work together to deliver a
+The practice of ensuring that risks are properly
+                                                                              product or service. Can also be used to
+assessed, authorizing changes to proceed and
+                                                                              describe the parameter settings for one or
+managing a change schedule in order to
+                                                                              more CIs.
+maximize the number of successful service and
+product changes.                                                              Configuration Item (CI)
+                                                                              Any product, service, or component that is
+change model
+                                                                              within scope of the configuration management
+A repeatable approach to the management of a
+                                                                              practice. Configuration items typically include
+particular type of change.
+                                                                              hardware, software, networks, buildings,
+change schedule                                                               suppliers, products, services, and
+                                                                              documentation.
+A calendar that shows planned and historical
+changes.
+
+
+
+
+4   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+Configuration Management Database                          continuous deployment
+(CMDB)                                                     A set of techniques and tools that enables
+A database used to store configuration records             every change that passes automated tests to
+throughout their lifecycle. The CMDB also                  be automatically deployed to production
+maintains the relationships between                        without additional authorization. Continuous
+configuration records.                                     deployment relies on continuous delivery.
+
+Configuration Management System (CMS)                      continuous integration
+A set of tools, data, and information that is              A set of techniques and tools that enables
+used to support service configuration                      developers to frequently merge their code
+management.                                                changes into a central repository, followed by
+                                                           automated builds and tests.
+configuration record
+A record containing the details of a                       core value stream
+Configuration Item (CI). Each configuration                A value stream that enables value for
+record documents the lifecycle of a single CI.             consumers in a form intended by the
+Configuration records are stored in a                      organization’s operating model.
+configuration management database.
+                                                           cost
+Content Delivery Network (CDN)                             The amount of money spent on a specific
+A distributed system of servers strategically              activity, resource, product or service.
+placed around the globe to deliver web
+content, such as HTML pages, images, videos,               cost centre
+scripts, and other assets, to end users quickly            A business unit or project to which costs are
+and reliably.                                              assigned.
+
+continual improvement                                      Critical Success Factor (CSF)
+A recurring organizational activity performed at           A necessary precondition for the achievement
+all levels of an organization to ensure that the           of intended results.
+organization continually meets stakeholders’
+expectations.                                              culture
+                                                           A set of values shared by a group of people,
+continual improvement practice                             expressed through people’s behaviour and
+The practice of aligning an organization’s                 their ideas, beliefs, and practices.
+practices and services with changing business
+needs through the ongoing identification and               customer
+improvement of all elements involved in the                The role that defines the requirements for
+effective management of products and                       products and services and takes responsibility
+services.                                                  for the outcomes of service consumption.
+
+continuous delivery                                        Customer Experience (CX)
+A set of techniques and tools that enables                 The sum of functional and emotional
+software updates to be deployed to production              interactions with a service and service provider
+at any time. Frequent deployments are                      as perceived by a service customer.
+possible, but deployment decisions are taken
+                                                           cycle time
+case by case, usually because organizations
+prefer a slower rate of deployment.                        The time it takes to complete one specific step
+                                                           of the value stream
+
+                                                           dashboard
+                                                           A real-time graphical representation of data.
+
+
+
+
+                                                   ITIL® Product | Glossary | Copyright © PeopleCert International Limited   5
+data governance                                                               digital product vendor
+A system of rules, policies, standards,                                       An organization responsible for the creation
+processes, and controls organizations                                         and continual improvement of digital products
+implement to manage their data assets                                         and related service offerings.
+effectively.
+                                                                              digital service
+deliver and support                                                           A service that fully or largely relies on digital
+The value chain activity that ensures services                                products.
+are delivered and supported according to
+agreed specifications and stakeholders’                                       digital transformation
+expectations.                                                                 The strategic adoption and integration of digital
+                                                                              technologies into all areas of an organization,
+deployment                                                                    fundamentally changing how the organization
+The movement of any service component into a                                  operates and creates value for customers and
+controlled environment.                                                       other stakeholders.
+
+deployment management practice                                                disaster
+The practice of moving new or changed                                         A sudden unplanned event that causes great
+hardware, software, documentation, processes,                                 damage or serious loss to an organization. A
+or any other service component to one of the                                  disaster results in an organization failing to
+controlled environments.                                                      provide critical business functions for some
+                                                                              predetermined minimum period of time.
+design thinking
+A practical and human-centred approach used                                   disaster recovery plans
+by product and service designers to solve                                     A set of clearly defined plans related to how an
+complex problems and find practical and                                       organization will recover from a disaster as well
+creative solutions that meet the needs of an                                  as return to a pre-disaster condition,
+organization and its customers.                                               considering the four dimensions of product
+                                                                              and service management.
+development environment
+An environment used to create or modify IT                                    effectiveness
+services or applications.                                                     A measure of whether the objectives of a
+                                                                              practice, service, or activity have been achieved.
+DevOps
+A cultural and professional movement that                                     efficiency
+stresses communication, collaboration, and                                    A measure of whether the right amount of
+integration between software developers and IT                                resources have been used by a practice,
+operations professionals, while automating the                                service, or activity.
+process of software delivery and infrastructure
+changes. It aims at establishing a culture and                                enabling value stream
+environment where building, testing, and                                      A value stream that enables value for internal
+releasing software, can happen rapidly,                                       customers to support the organization’s core
+frequently, and more reliably.                                                value streams.
+
+digital product                                                               environment
+A combination of an organization’s resources                                  A subset of the IT infrastructure that is used for
+based on digital technology and designed to                                   a particular purpose, for example a live
+offer value to consumers.                                                     environment or test environment. Can also
+                                                                              mean the external conditions that influence or
+digital product and service management                                        affect something.
+A set of specialized organizational capabilities
+for enabling value for customers in the form of
+digital products and services.
+
+
+6   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+error                                                        calculations. Load: write the transformed data
+A flaw or vulnerability that may cause incidents.            into the destination system, typically a data
+                                                             warehouse or analytics platform. The choice
+escalation                                                   between ELT and ETL depends on architecture,
+The act of sharing awareness or transferring                 performance requirements, and the capabilities
+ownership of a work item.                                    of the storage platform.
+
+event                                                        feedback
+Any change of state that has significance for the            Information about stakeholder reactions and
+management of a service or other configuration               opinions, which is used as a basis for
+item.                                                        improvement.
+
+event-driven function                                        feedback loop
+A small, self‑contained piece of code that is                A term commonly used to refer to a situation
+automatically invoked in response to a specific              where part of the output of an activity is used
+event rather than being run continuously or                  for new input.
+called directly by a client. These enable reactive
+architectures such as micro‑service pipelines,               flow efficiency
+real‑time data processing, and API back‑ends                 A metric that indicates the percentage of cycle
+that react instantly to user actions while                   time (or value-added time) in the lead time.
+keeping operational overhead and cost low.
+                                                             Generative AI (GenAI)
+Experience Level Agreement (XLA)                             AI systems that can create new content, such
+A documented agreement between a service                     as text, images, code, or other outputs, based
+provider and a customer that identifies the                  on patterns learned from existing data.
+agreed experience level for a service.
+                                                             goods
+external customer                                            Tangible resources that are transferred or
+A customer who works for an organization                     available for transfer from a service provider to
+other than the service provider.                             a service consumer, together with ownership
+                                                             and associated rights and responsibilities.
+Extract‑Load‑Transform (ELT)
+An approach to moving data from operational                  governance
+sources into a form suitable for analysis.                   The system by which an organization is directed
+Extract: retrieve data from the source. Load:                and controlled.
+immediately store the raw data in the target
+system (often a modern cloud data lake or                    governance of digital technology
+massively parallel processing warehouse).                    A human-based system by which the current
+Transform: perform the transformation inside                 and future use of digital technology is
+the destination environment, leveraging its                  governed. The system comprises directing,
+compute power (e.g., SQL‑based                               overseeing and accountability.
+transformations or built‑in warehouse
+                                                             incident
+functions).
+                                                             An unplanned interruption to a service or
+Extract‑Transform‑Load (ETL)                                 reduction in the quality of a service.
+An approach to moving data from operational
+                                                             incident management practice
+sources into a form suitable for analysis.
+Extract: pull raw data from source systems                   The practice of minimizing the negative impact
+(databases, APIs, files, etc.). Transform: clean,            of incidents by restoring normal service
+enrich, aggregate, or otherwise reshape the                  operation as quickly as possible.
+data so it fits the target schema and business
+rules. This step often includes validation,
+deduplication, type conversion, and
+
+
+                                                     ITIL® Product | Glossary | Copyright © PeopleCert International Limited   7
+information and technology                                                    IT asset
+One of the four dimensions of product and                                     Any financially valuable component that can
+service management. It addresses data,                                        contribute to the delivery of an IT product or
+information, and technologies used in digital                                 service.
+products and services, as well as those used as
+part of the organization’s product and service                                IT asset management practice
+management systems.                                                           The practice of planning and managing the full
+                                                                              lifecycle of all IT assets.
+information security management
+practice                                                                      IT infrastructure
+The practice of protecting an organization by                                 All of the hardware, software, networks, and
+understanding and managing risks to the                                       facilities that are required to develop, test,
+confidentiality, integrity, and availability of                               deliver, monitor, manage, and support IT
+information.                                                                  services.
+
+information security policy                                                   ITIL
+The policy that governs an organization’s                                     A framework and best-practice guidance for
+approach to information security management.                                  digital product and service management.
+
+infrastructure and platform management                                        ITIL Continual Improvement Model (ITIL
+practice                                                                      CIM)
+The practice of overseeing the infrastructure                                 A model which provides organizations with a
+and platforms used by an organization. This                                   structured approach to planning and
+enables the monitoring of technology solutions                                implementing improvements.
+available, including solutions from third parties.
+                                                                              ITIL Four Dimensions of Product and
+Infrastructure as Code (IaC)                                                  Service Management
+Infrastructure (servers, networks, storage, etc.)                             The four perspectives that are critical to the
+is provisioned and managed using machine-                                     effective and efficient facilitation of value for
+readable configuration files or scripts, rather                               customers and other stakeholders in the form
+than manual setup.                                                            of products and services.
+
+integrity (system)                                                            ITIL Guiding Principles
+A security objective that ensures information is                              Recommendations that can guide an
+only modified by authorized personnel and                                     organization in all circumstances, regardless of
+activities.                                                                   changes in its goals, strategies, type of work, or
+                                                                              management structure.
+internal customer
+A customer who works for the same                                             ITIL Value System (ITIL VS)
+organization as the service provider.                                         A model representing how all the components
+                                                                              and activities of an organization work together
+Internet of Things (IoT)                                                      to facilitate value creation through digital
+A network of physical devices embedded with                                   products and services.
+sensors, software, and other technologies that
+enable them to connect and exchange data                                      Kanban
+with other devices and systems over the                                       A method for visualizing work, identifying
+internet or other communication networks.                                     potential blockages and resource conflicts, and
+                                                                              managing work in progress.
+interoperability
+The ability of computer systems or software                                   Key Performance Indicator (KPI)
+from different vendors to operate together,                                   An important metric used to evaluate the
+and exchange and make use of information.                                     success in meeting an objective.
+
+
+
+
+8   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+knowledge management practice                             maturity
+The practice of maintaining and improving the             A measure of the reliability, efficiency, and
+effective, efficient, and convenient use of               effectiveness of an organization, practice, or
+information and knowledge across an                       process.
+organization.
+                                                          measurement and reporting practice
+known error                                               The practice of supporting good decision-
+A problem that has been analysed but has not              making and continual improvement by
+been resolved.                                            decreasing levels of uncertainty.
+
+lead time                                                 metric
+The total time from initiation of the value               A measurement or calculation that is
+stream workflow to delivery of the intended               monitored or reported for management and
+outputs.                                                  improvement.
+
+Lean                                                      Minimum Viable Product (MVP)
+An approach that focuses on improving                     A product with just enough features to satisfy
+workflows by maximizing value through the                 early customers, and to provide feedback for
+elimination of waste.                                     future product development.
+
+lifecycle                                                 mission
+The full set of stages, transitions, and                  A short but complete description of the overall
+associated statuses in the life of a service,             purpose and intentions of an organization.
+product, practice, or other entity.
+                                                          model
+live                                                      A representation of a system, practice, process,
+Refers to a service or other configuration item           service, or other entity that is used to
+operating in the live environment.                        understand and predict its behaviour and
+                                                          relationships.
+live environment
+A controlled environment used in the operation            modelling
+of digital products and delivery of digital               The activity of creating, maintaining, and
+services to service consumers.                            utilizing models.
+
+maintainability                                           monitoring
+The ease with which a service or other entity             Repeated observation of a system, practice,
+can be repaired or modified.                              process, service, or other entity to detect
+                                                          events and to ensure that the current status is
+major incident                                            known.
+An incident with significant business impact
+that requires an immediate coordinated                    monitoring and event management
+resolution.                                               practice
+                                                          The practice of systematically observing
+management practice                                       services and service components, and
+A set of organizational resources and                     recording and reporting selected changes of
+capabilities designed and adopted for                     state identified as events.
+performing work or accomplishing an objective.
+                                                          negative testing
+management system                                         A type of testing that validates that a feature or
+A system of interconnected elements that                  function works as expected with invalid or
+establish policy and objectives and enable the            unexpected inputs.
+achievement of those objectives.
+
+
+
+
+                                                  ITIL® Product | Glossary | Copyright © PeopleCert International Limited   9
+non-functional testing                                                    organizational velocity
+A type of testing that validates how a system                             The speed, effectiveness, and efficiency with
+performs rather than what it does.                                        which an organization operates. Organizational
+                                                                          velocity influences time to market, quality,
+observability                                                             safety, costs, and risks.
+The ability to understand the internal state of a
+complicated system by analysing its external                              organizations and people
+outputs, such as metrics, logs, and traces.                               One of the four dimensions of product and
+                                                                          service management. It ensures that the way an
+operating model                                                           organization is structured and managed, as well
+A conceptual and/or visual representation of                              as its roles, responsibilities, and systems of
+how an organization co-creates value with its                             authority and communication, is well defined
+customers and other stakeholders, as well as                              and supports its overall strategy and operating
+how the organization runs itself.                                         model.
+
+operation                                                                 outcome
+The routine running and management of an                                  A result for a stakeholder enabled by one or
+activity, product, service, or other configuration                        more outputs.
+item.
+                                                                          output
+operational technology                                                    A tangible or intangible deliverable of an
+The hardware and software solutions that                                  activity.
+detect or cause changes in physical processes
+through direct monitoring and/or control of                               outsourcing
+physical devices such as valves, pumps, and so                            The process of having external suppliers
+on.                                                                       provide products and services that were
+                                                                          previously provided internally.
+organization
+A person or a group of people that has its own                            partners and suppliers
+functions with responsibilities, authorities, and                         One of the four dimensions of product and
+relationships to achieve its objectives.                                  service management. It encompasses the
+                                                                          relationships an organization has with other
+organization’s purpose                                                    organizations that are involved in the design,
+Describes what an organization does for its                               development, deployment, delivery, support,
+consumers and other stakeholders and why.                                 and/or continual improvement of services.
+
+organizational change management                                          partnership
+practice
+                                                                          A relationship between two organizations that
+The practice of ensuring that changes in an                               involves working closely together to achieve
+organization are smoothly and successfully                                common goals and objectives.
+implemented and that lasting benefits are
+achieved by managing the human aspects of                                 performance
+the changes.                                                              A measure of what is achieved or delivered by a
+                                                                          system, person, team, practice, or service.
+organizational resilience
+The ability of an organization to anticipate,                             pilot
+prepare for, respond to, and adapt to                                     A test implementation of a service with a
+unplanned external influences.                                            limited scope in a live environment.
+
+                                                                          policy
+                                                                          Formally documented management
+                                                                          expectations and intentions, used to direct
+                                                                          decisions and activities.
+
+
+10   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+portfolio management practice                               product/service specification
+The practice of ensuring that an organization               A detailed document that outlines critical
+has the right mix of programmes, projects,                  aspects, requirements, and characteristics of a
+products, and services to execute its strategy              product or service to be built. It typically
+within its funding and resource constraints.                includes descriptions of the product’s features,
+                                                            functionalities, technical requirements,
+positive testing                                            performance criteria, and user interface details.
+A type of testing that validates that a feature or
+function works as expected with valid and                   production environment
+correct inputs.                                             See live environment.
+
+problem                                                     programme
+A cause, or potential cause, of one or more                 A set of related projects and activities, and an
+incidents.                                                  organization structure created to direct and
+                                                            oversee them.
+problem management practice
+The practice of reducing the likelihood and                 project
+impact of incidents by identifying actual and               A temporary structure that is created for the
+potential causes of incidents, and managing                 purpose of delivering one or more business
+workarounds and known errors.                               products according to an agreed business case.
+
+procedure                                                   project management practice
+A documented way to carry out an activity or a              The practice of ensuring that all an
+process.                                                    organization’s projects are successfully
+                                                            delivered.
+process
+A set of interrelated or interacting activities that        quick win
+transform inputs into outputs. Processes define             An improvement that is expected to provide a
+the sequence of activities and their                        return on investment in a short period of time
+dependencies.                                               with relatively small cost and effort.
+
+product                                                     record
+A configuration of an organization’s resources              A document stating results achieved and
+designed to offer value for a consumer.                     providing evidence of activities performed.
+
+product and service portfolio                               recovery
+A complete set of products and services that                The activity of returning a configuration item to
+are managed throughout their lifecycles by an               normal operation after a failure.
+organization.
+                                                            regression testing
+product/service prototype                                   A type of testing that validates code changes
+An initial version of a product or service that             have not negatively affected existing
+demonstrates its basic form, functionality, and             functionality.
+operational capabilities. It is used to test and
+refine the product’s or service’s design and                relationship management practice
+functionality and test hypotheses. Prototypes               The practice of establishing and nurturing links
+vary in complexity and purpose, ranging from                between an organization and its stakeholders
+visual mockups to fully functional models.                  at strategic and tactical levels.
+
+                                                            release
+                                                            A version of a product, service, or other
+                                                            configuration item, or a collection of
+                                                            configuration items, made available for use.
+
+
+                                                   ITIL® Product | Glossary | Copyright © PeopleCert International Limited   11
+release management practice                                                 service
+The practice of making new and changed                                      A means of enabling value co-creation by
+services and features available for use.                                    facilitating outcomes that consumers want to
+                                                                            achieve, without the consumer having to
+reliability                                                                 manage specific costs and risks.
+The ability of a product, service, or other
+configuration item to perform its intended                                  service action
+function for a specified period of time or                                  An action performed by a service provider or
+number of cycles.                                                           jointly by a service provider and a service
+                                                                            consumer.
+request catalogue
+A view of the service catalogue, providing                                  service architecture
+details on service requests for existing and new                            A view of all the services provided by an
+services, which is made available for the user.                             organization. It includes interactions between
+                                                                            the services, and service models that describe
+Request for Change (RfC)                                                    the structure and dynamics of each service.
+A description of a proposed change submitted
+by a stakeholder.                                                           service catalogue
+                                                                            Structured information about all the services
+resolution                                                                  and service offerings of a service provider,
+The action of solving an incident or problem.                               relevant for a specific target audience.
+
+resource                                                                    service catalogue management practice
+Personnel, material, finance, or other entity that                          The practice of providing a single source of
+is required for the execution of an activity or                             consistent information on all services and
+the achievement of an objective. Resources                                  service offerings, and ensuring that it is
+used by an organization may be owned by the                                 available to the relevant audience.
+organization or used according to an
+agreement with the resource owner.                                          service configuration management
+                                                                            practice
+retire                                                                      The practice of ensuring that accurate and
+The act of permanently withdrawing a product,                               reliable information about the configuration of
+service, or other configuration item from use.                              services, and the configuration items that
+                                                                            support them, is available when and where
+risk                                                                        needed.
+A possible event that could cause harm or loss,
+or make it more difficult to achieve objectives.                            service consumer
+                                                                            An organization responsible for procurement
+risk assessment                                                             and use of services.
+An activity to identify, analyse, and evaluate
+risks.                                                                      service consumption
+                                                                            Activities performed by an organization to
+risk management practice                                                    consume services. It includes the management
+The practice of ensuring that an organization                               of the consumer’s resources needed to use the
+understands and effectively handles risks.                                  service, service actions performed by users,
+                                                                            and the receiving (acquiring) of goods (if
+safety culture
+                                                                            required).
+An organizational culture in which people are
+comfortable being (and expressing) themselves.                              service continuity management practice
+                                                                            The practice of ensuring that service availability
+                                                                            and performance are maintained at a sufficient
+                                                                            level in case of a disaster.
+
+
+
+
+12     ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+service design practice                                   service provider
+The practice of designing products and services           An organization responsible for delivery and
+that are fit for purpose, fit for use, and that can       support of services.
+be delivered by the organization and its
+ecosystem.                                                service provision
+                                                          Activities performed by an organization to
+service desk practice                                     provide services. It includes management of the
+The practice of providing the entry point and             provider’s resources configured to deliver the
+single point of contact with the service provider         service; ensuring access to these resources for
+for all users, and capturing demand for incident          users; fulfilment of the agreed service actions;
+resolution and service requests.                          service level management; and continual
+                                                          improvement. It may also include the supply of
+service experience                                        goods.
+The sum of the functional and emotional
+interactions with a service and provider as               service quality
+perceived by a stakeholder.                               The sum of the characteristics of a service that
+                                                          are relevant to its ability to satisfy stated and
+service financial management practice                     implied needs.
+The practice of supporting an organization’s
+strategies and plans for service management               service relationship
+by ensuring that the organization’s financial             A cooperation between a service provider and
+resources and investments are being used                  service consumer. Service relationships include
+effectively.                                              service provision, service consumption, and
+                                                          service relationship management.
+service journey
+The sum of activities and interactions                    service relationship management
+performed by organizations engaged in service             Joint activities performed by a service provider
+relationships to fulfil their roles as a service          and a service consumer to ensure continual
+provider and a service consumer.                          value co-creation based on agreed and
+                                                          available service offerings.
+service level
+A set of metrics that define expected or                  service request
+achieved service quality.                                 A request from a user or a user’s authorized
+                                                          representative that initiates a service action
+Service Level Agreement (SLA)                             which has been agreed as a normal part of
+A documented agreement between a service                  service delivery.
+provider and a customer that identifies the
+services provided and the agreed level of each            service request management practice
+service.                                                  The practice of supporting the agreed quality of
+                                                          a service by handling all pre-defined, user-
+service level management practice                         initiated service requests in an effective and
+The practice of setting clear business-based              user-friendly manner.
+targets for service performance so that the
+delivery of a service can be properly assessed,           service validation and testing practice
+monitored, and managed against these targets.             The practice of ensuring that new or changed
+                                                          products and services meet defined
+service offering                                          requirements.
+A formal description of one or more services
+designed to address the needs of a target                 service value
+consumer group. A service offering may include            The perceived benefits, usefulness, and
+goods, access to resources, and service actions.          importance of a service
+
+
+
+
+                                                 ITIL® Product | Glossary | Copyright © PeopleCert International Limited   13
+Site Reliability Engineering (SRE)                                        strategy management practice
+A discipline that incorporates aspects of                                 The practice of formulating the goals of an
+software engineering and applies them to                                  organization and adopting the courses of
+infrastructure and operations problems. The                               action and allocation of resources necessary
+main goal is to create scalable and highly                                for achieving those goals.
+reliable software systems.
+                                                                          supplier
+software development and management                                       An organization responsible for supplying
+practice                                                                  goods and providing services that are used by
+The practice of ensuring that applications meet                           another organization.
+stakeholder needs in terms of functionality,
+reliability, maintainability, compliance, and                             supplier management practice
+auditability.                                                             The practice of ensuring that an organization’s
+                                                                          suppliers and their performance levels are
+sourcing                                                                  managed appropriately to support the
+The activity of planning and obtaining resources                          provision of seamless quality products and
+from a particular source type, which could be                             services.
+internal or external, centralized or distributed,
+and open or proprietary.                                                  support team
+                                                                          A team with the responsibility to maintain
+specification                                                             normal operations, address users’ requests,
+A documented description of the properties of                             and resolve incidents and problems related to
+a product, service, or other configuration item.                          specified products, services, or other
+                                                                          configuration items.
+sponsor
+The role that authorizes budget for service                               sustainability
+consumption.                                                              The assurance that a product or service meets
+                                                                          and will continue to meet the requirements for
+sprint
+                                                                          environmental stewardship, social progress,
+A fixed timeframe (typically of 2–4 weeks) for                            and economic growth.
+creating selected features from the backlog.
+                                                                          swarming
+stakeholder
+                                                                          A technique for solving various complex tasks.
+A person or organization that has an interest or                          In swarming, multiple people with different
+involvement in an organization, product,                                  areas of expertise work together on a task until
+service, practice, or other entity.                                       it becomes clear which competencies are the
+                                                                          most relevant and needed.
+standard
+A document established by consensus and                                   system
+approved by a recognized body that provides,                              A combination of interacting elements
+for common and repeated use, mandatory                                    organized and maintained to achieve one or
+requirements, guidelines, or characteristics for                          more stated purposes.
+its subject.
+                                                                          systems thinking
+standard change
+                                                                          A holistic approach to analysis that focuses on
+A low-risk, pre-authorized change that is well                            the way that a system’s constituent parts work,
+understood and fully documented and which                                 interrelate, and interact over time and within
+can be implemented without needing                                        the context of other systems.
+additional authorization.
+                                                                          technical debt
+status
+                                                                          The implied cost of additional rework caused by
+A description of the specific states an entity can                        choosing an easy solution now instead of a
+have at a given time.                                                     better approach that would take longer.
+
+
+14   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+test environment                                          utility
+A controlled environment established to test              The functionality offered by a product or
+products, services, and other configuration               service to meet a particular need. Utility can be
+items.                                                    summarized as ‘what the service does’ and can
+                                                          be used to determine whether a service is ‘fit
+Test‑Driven Development (TDD)                             for purpose’. To have utility, a service must
+A software development method where the                   either support the performance of the
+developer writes a failing automated test                 consumer or remove constraints from the
+before writing the production code it’s meant             consumer. Many services do both.
+to verify. It follows a Red-Green-Refactor loop:
+write a failing test (Red), write just enough code        utility requirements
+to make it pass (Green), then clean up the code           Functional requirements which have been
+(Refactor).                                               defined by the customer and are unique to a
+                                                          specific product.
+testing
+The activity in which a system or component is            validation
+executed under specified conditions, the                  The activity of confirming that the proposed
+results are observed or recorded, and an                  product and service design meets agreed
+evaluation of some aspect or component of the             requirements and establishing acceptance
+system is made.                                           criteria for the next lifecycle stages.
+
+third party                                               value
+A stakeholder external to an organization.                The perceived benefits, usefulness, and
+                                                          importance of something.
+throughput
+A measure of the amount of work performed                 value chain
+by a product, service, or other system over a             An entire set of activities that enables value
+given period of time.                                     through the provision of a product or service.
+
+transaction                                               value chain activities
+A unit of work consisting of an exchange                  Activities performed by organizations to
+between two or more participants or systems.              manage digital products and services through
+                                                          their lifecycle. Each of these activities is enabled
+use case                                                  and supported by several management
+A realistic practical scenario used to define             practices.
+functional requirements and to design tests.
+                                                          value stream
+user                                                      A series of steps that an organization uses to
+The role that uses services.                              create and deliver products and services to a
+                                                          service consumer.
+User Experience (UX)
+The sum of the functional and emotional                   value streams and processes
+interactions with a service and service provider          One of the four dimensions of service
+as perceived by a service user.                           management. It defines the activities,
+                                                          workflows, controls, and procedures needed to
+user query
+                                                          achieve the agreed objectives.
+An interaction (for example, a telephone call or
+a chat) with the service desk, initiated by a user        vision
+or user representative. A user query could                A defined aspiration of what an organization
+result in an incident or a service request being          would like to become in the future.
+logged.
+
+
+
+
+                                                 ITIL® Product | Glossary | Copyright © PeopleCert International Limited   15
+wait time
+The time spent waiting between the value
+stream steps.
+
+warranty
+The assurance that a product or service will
+meet the agreed requirements. Warranty can
+be summarized as ‘how the service performs’
+and can be used to determine whether a
+service is ‘fit for use’. Warranty often relates to
+service levels aligned with the needs of service
+consumers. This may be based on a formal
+agreement, or it may be a marketing message
+or brand image. Warranty typically addresses
+such areas as the availability of the service, its
+capacity, levels of security, and continuity. A
+service may be said to provide acceptable
+assurance, or ‘warranty’, if all defined and
+agreed conditions are met.
+
+warranty requirements
+Typically non-functional requirements captured
+as inputs from key stakeholders and other
+practices.
+
+workaround
+A solution that reduces or eliminates the
+impact of an incident or problem for which a
+full resolution is not yet available. Some
+workarounds reduce the likelihood of incidents.
+
+workforce and talent management
+practice
+The practice of ensuring that an organization
+has the right people with the appropriate skills
+and knowledge and in the correct roles to
+support its business objectives.
+
+
+
+
+16   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+Notes
+
+
+
+
+        ITIL® Product | Glossary | Copyright © PeopleCert International Limited   17
+Notes
+
+
+
+
+18   ITIL® Product | Glossary | Copyright © PeopleCert International Limited
+Thank you
+for completing this course!
+Please take a few minutes to give us your feedback on your
+experiences and learning from the course by completing
+the online course evaluation survey here.
+
+
+
+
+                                    PeopleCert has been accredited by Lloyd’s Register,
+                                    UK (now LRQA), in accordance with ISO 14001 for
+    ESG
+                                    Environmental Management since 2006. Recognized
+    Commitment
+                                    through numerous awards, we remain committed to
+                                    ESG leadership and the preservation of our planet.
+

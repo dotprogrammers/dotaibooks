@@ -1,0 +1,13 @@
+import { PrismaClient } from '@prisma/client'
+const db = new PrismaClient()
+const counts = await db.question.groupBy({ by: ['categoryId'], _count: { _all: true }, orderBy: { categoryId: 'asc' } })
+console.log('Question counts per category:')
+for (const c of counts) console.log(`  Cat ${c.categoryId}: ${c._count._all}`)
+console.log('Total:', await db.question.count())
+console.log('Topics:', await db.topic.count())
+console.log('Resources:', await db.resource.count())
+const withImg = await db.topic.count({ where: { NOT: { imageUrl: null } } })
+const withVid = await db.topic.count({ where: { NOT: { videoUrl: null } } })
+console.log('Topics with image:', withImg)
+console.log('Topics with video:', withVid)
+await db.$disconnect()

@@ -1,0 +1,1276 @@
+                                                                          Unlock
+                                                                    exclusive benefits
+
+
+
+ITIL
+                                                                   with PeopleCert Plus!
+             ®
+                                                                      Join Now!
+
+
+Product                VERSION 5
+
+
+
+
+Global Best Practice
+         For all organizations and people aiming
+         to create excellent digital products!
+
+
+
+
+Sample
+Paper 1
+Answers and Rationales
+
+
+
+
+                                             Official Training Materials
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 5.0 (March 2026)
+
+Copyright © 2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by
+PeopleCert. Information identified as being under a Creative Commons license may be used in accordance with that license. ITIL®, PRINCE2®,
+DEVOPS INSTITUTE ®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this
+publication, no representation or warranty (either express or implied) is given by PeopleCert with respect to the completeness, accuracy or suitability of
+the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage whatsoever relating to such
+information or advice.
+
+
+
+
+2     ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer     Assessment               Rationales
+                      Criteria
+1          C          1.1.4                    A. Incorrect. The lifecycle does not define a fixed
+                                               sequence that must be followed for all products.
+                                               “Value streams: are the actual sequence of activities
+                                               performed, rather than a predetermined blueprint.”
+                                               Ref 11.4
+                                               B. Incorrect. The lifecycle model integrates product
+                                               and service management rather than separating
+                                               them. “ITIL offers an end-to-end Lifecycle Model for
+                                               digital products and services, where the concepts of
+                                               digital product and service are integrated.” Ref 1.2
+                                               C. Correct. This describes an integrated lifecycle
+                                               model that applies shared stages across roles
+                                               and operating models to support holistic
+                                               product and service management. “The ITIL
+                                               Product and Service Lifecycle includes eight
+                                               stages. To manage digital products and services
+                                               throughout the lifecycle […] organization’s role
+                                               in service relationships.” Ref 2.1.2
+                                               D. Incorrect. The lifecycle encompasses the end-to-
+                                               end management of both digital products and
+                                               digital services. It is not limited to describing
+                                               transition and operation activities after products are
+                                               built. “Digital product management (the
+                                               management of digital product throughout their
+                                               end-to-end lifecycle) and digital service
+                                               management (the management of digital services
+                                               throughout their end-to-end lifecycle) are both
+                                               required to enable sustainable value for customers.”
+                                               Ref 2.1
+2          A          1.1.1                    A. Correct. Digital products are combinations of
+                                               organizational resources that provide
+                                               capabilities, while digital services are how those
+                                               capabilities are used and consumed to realize
+                                               value. “Products provide capabilities, while
+                                               service offerings describe the potential value
+                                               they offer to customers. When customers accept
+                                               these offerings, service delivery and
+                                               consumption begin.” Ref 2.1.1
+                                               B. Incorrect. Value is realized through service
+                                               consumption, not merely through the existence of a
+                                               product. Also, digital services are not limited to
+                                               internal operations. “Products provide capabilities,
+                                               while service offerings describe the potential value
+                                               they offer to customers. When customers accept
+                                               these offerings, service delivery and consumption
+                                               begin.” Ref 2.1.1
+                                               C. Incorrect. Digital products are defined as
+                                               combinations of resources, and services are where
+                                               outcomes and value are experienced by consumers.
+                                               A digital product is “a combination of an
+                                               organization’s resources based on digital technology
+                                               and designed to offer value to consumers.” Ref 2.1
+                                               D. Incorrect. Digital product and digital service are
+                                               distinct concepts with different roles in value
+                                               creation. A digital product is “a combination of an
+
+
+
+                    ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   3
+Question            Answer           Assessment               Rationales
+                                     Criteria
+                                                              organization’s resources based on digital technology
+                                                              and designed to offer value to consumers,” while a
+                                                              digital service is “a service that fully or largely relies
+                                                              on digital products.” Ref 2.1
+3                   B                1.1.6                    A. Incorrect. Governance influences and constrains
+                                                              decisions, but the value chain is not defined as a
+                                                              governance structure. “Formal governance
+                                                              structures support cross-functional alignment,
+                                                              accountability, and decision‑making bandwidth.”
+                                                              Ref 5.4.1
+                                                              B. Correct. The value chain is not a governance
+                                                              layer, nor a replacement for lifecycle stages; it is
+                                                              the mechanism through which lifecycle
+                                                              management activities are carried out to enable
+                                                              value creation. Value chain is “an entire set of
+                                                              activities that enables value through the
+                                                              provision of a product or service.” Ref Glossary
+                                                              C. Incorrect. The value chain does not reduce
+                                                              lifecycle stages to operational process execution.
+                                                              The value chain enables the management of digital
+                                                              products and services across all lifecycle stages,
+                                                              including ‘discover’, ‘design’, ‘build’, ‘transition’,
+                                                              ‘deliver’, ‘operate’, and ‘support’ activities.
+                                                              Operational execution is only one part of the
+                                                              lifecycle. Aligning lifecycle stages directly with
+                                                              operational processes ignores the broader
+                                                              management capabilities and value-enabling
+                                                              activities required throughout the entire lifecycle.
+                                                              “The operating model’s core is its value chain: a set
+                                                              of activities that enables value through the provision
+                                                              of a product or service.” Ref 2.1.2
+                                                              D. Incorrect. Value chain activities are not
+                                                              sequenced into a fixed, linear process. They are
+                                                              combined and adapted as part of value streams,
+                                                              reflecting the actual sequence of activities
+                                                              performed rather than a predetermined structure.
+                                                              “Value streams: are the actual sequence of activities
+                                                              performed, rather than a predetermined blueprint”
+                                                              Ref 11.4
+4                   D                1.2.1                    A. Incorrect. ‘The ‘discover’ activity is not a one-time
+                                                              activity performed only at the beginning of the
+                                                              lifecycle. It is explicitly described as continual and
+                                                              iterative. “The ‘discover’ activity, from a product
+                                                              vendor’s perspective, is a continual, iterative activity
+                                                              that defines which digital products to build, evolve,
+                                                              or retire, and why these decisions make sense in the
+                                                              broader organizational, market, and ecosystem
+                                                              context.” Ref 3.1.2
+                                                              B. Incorrect. Although ‘discover’ can be performed at
+                                                              organizational and portfolio levels, it is not exclusive
+                                                              to them. Product-level ‘discover’ is central to digital
+                                                              product management. “The ‘discover’ activity is
+                                                              performed at three levels: Organizational level […]
+                                                              Portfolio level […] Product level.” Ref 3.1
+
+
+
+
+4   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer     Assessment               Rationales
+                      Criteria
+                                               C. Incorrect. The ‘discover’ activity frames and
+                                               informs subsequent lifecycle stages but does not
+                                               replace them. “It connects an organization’s vision
+                                               and strategy with actionable product portfolio
+                                               decisions and thus frames all subsequent lifecycle
+                                               stages of the digital products.” Ref 3.1.2
+                                               D. Correct. The focus of the ‘discover’ activity at
+                                               product level is to ensure ongoing alignment of
+                                               product capabilities and service offerings with
+                                               consumer needs and organizational strategy,
+                                               which inherently informs future product
+                                               direction and evolution. “The purpose of the
+                                               ‘discover’ activity is to ensure continual
+                                               alignment of the product capabilities and
+                                               related service offerings with the needs of
+                                               service consumers and with organizational
+                                               strategy.” Ref 3.1.1
+5          C          1.2.2                    A. Incorrect. Defining customer needs and
+                                               prioritizing opportunities is the purpose of ‘discover’,
+                                               not ‘design’. “The purpose of the ‘discover’ activity is
+                                               to ensure continual alignment of the product
+                                               capabilities and related service offerings with the
+                                               needs of service consumers and with the
+                                               organizational strategy.” Ref 3.1.1
+                                               B. Incorrect. Product and service design are
+                                               inseparable in digital product management. “Digital
+                                               product design should always include designing the
+                                               future service interactions and service experience,
+                                               so it is in fact ‘digital product and service design’.”
+                                               Ref 4.1
+                                               C. Correct. ‘Design’ is broader than user
+                                               experience or functional specification. Products
+                                               and services are designed so they can be built,
+                                               operated, delivered, and supported, not just
+                                               implemented. “The ‘design’ activity aims to
+                                               design products that are not only valuable and
+                                               desirable to users, but also operable,
+                                               supportable, and sustainable for the
+                                               organization.” Ref 4.1.1
+                                               D. Incorrect. Defining implementation tasks belongs
+                                               primarily to ‘build’ and ‘transition’, not ‘design’.
+                                               ‘Design’ produces specifications and prototypes, not
+                                               execution task lists. “The outputs of the ‘design’
+                                               activity serve as an important input to all
+                                               subsequent activities of digital product and service
+                                               management.” Ref 4.2
+6          B          1.2.3                    A. Incorrect. Updating the backlog is part of planning
+                                               and prioritization, not resource acquisition. “The key
+                                               outputs of this activity include refined backlogs,
+                                               updated product roadmaps […].” Ref 3.2.2
+                                               B. Correct. The ‘acquire’ activity is about
+                                               securing and allocating resources (including
+                                               cloud capacity and specialist skills) so that
+                                               approved designs and backlog items can be
+                                               implemented across the lifecycle. “The purpose
+
+
+
+                    ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   5
+Question            Answer           Assessment               Rationales
+                                     Criteria
+                                                              of the ‘acquire’ activity is to secure and allocate
+                                                              necessary resources efficiently, ensuring the
+                                                              sustainability and scalability of products and
+                                                              services.” Ref 5.1.1
+                                                              C. Incorrect. Designing how resources are used
+                                                              belongs to the ‘design’ activity, not ‘acquire’.” The
+                                                              purpose of the ‘design’ activity is to create
+                                                              prototypes and specifications for products and
+                                                              services, detailing their functionality, user
+                                                              experience, and operational framework.” Ref 4.1.1
+                                                              D. Incorrect. Deploying features is part of
+                                                              ‘transition’, not ‘acquire’. “The purpose of the
+                                                              ‘transition’ activity is to seamlessly introduce new or
+                                                              updated products and services into operational
+                                                              environments and to ensure the effective
+                                                              onboarding/offboarding of suppliers.” Ref 7.1.1
+7                   A                10.2.1                   A. Correct. The model is intended to categorize
+                                                              AI functions based on what they do in service
+                                                              management contexts. “The model provides a
+                                                              functional classification of AI solutions.” Ref 1.4
+                                                              B. Incorrect. The ITIL AI Capability Model does not
+                                                              define maturity levels. It defines functional
+                                                              categories. “The model provides a functional
+                                                              classification of AI solutions.” Ref 1.4
+                                                              C. Incorrect. Governance comes in relation to AI
+                                                              adoption, but the Capability Model itself does not
+                                                              prescribe mandatory controls. “Organizations
+                                                              should ensure effective governance of technology
+                                                              and data they use and process” This refers to
+                                                              governance responsibilities, not the purpose of the
+                                                              AI Capability Model. Ref 1.4
+                                                              D. D. Incorrect. The model does not measure
+                                                              financial return. Its purpose is functional
+                                                              understanding and classification. “The model
+                                                              provides a functional classification of AI solutions.”
+                                                              Ref 1.4
+8                   D                2.2.1                    A. Incorrect. Deployed features and service
+                                                              catalogue entries are not outputs of ‘discover’. They
+                                                              occur after solutions are built and transitioned.
+                                                              “Products, services, and resources deployed to the
+                                                              target live environment and ready for operation.”
+                                                              Ref 7.1, Table 7.1
+                                                              B. Incorrect. Testing solution components is part of
+                                                              ‘build’, not ‘discover’, of which the key outputs are
+                                                              “Built and tested product solutions.”
+                                                              Ref 6.1, Table 6.1
+                                                              C. Incorrect. Operational performance data and
+                                                              incident trends are generated during ‘operate’, not
+                                                              ‘discover’, of which the key outputs are “Operating
+                                                              products and services; Product performance
+                                                              records and reports.” Ref 8.1, Table 8.1
+                                                              D. Correct. The ‘discover’ activity produces
+                                                              updated product roadmaps and refined backlogs
+                                                              at the end of its iterations. “The key outputs of
+                                                              this activity include refined backlogs, updated
+
+
+
+6   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer     Assessment               Rationales
+                      Criteria
+                                               product roadmaps, continual improvement
+                                               initiatives, as well as reports and documentation
+                                               of findings from the activity.” Ref 3.2.2
+9          A          2.2.2                    A. Correct. Assessing the product context means
+                                               consolidating external and internal factors (such
+                                               as regulations, market conditions, or user
+                                               expectations) to understand constraints, drivers,
+                                               and opportunities before defining problems or
+                                               solutions. “‘Discover’ begins with an assessment
+                                               of the current environment. Inputs include
+                                               strategic direction, a PESTLE analysis, portfolio
+                                               reviews, current roadmaps, backlog
+                                               assessments, and feedback from other value
+                                               chain activities.” Ref 3.2.1.1
+                                               B. Incorrect. Translating findings into detailed
+                                               designs belongs to the ‘design’ activity, which follows
+                                               discover after context and problems are
+                                               understood. The purpose of the ‘design’ activity is to
+                                               “create prototypes and specifications for products
+                                               and services, detailing their functionality, user
+                                               experience, and operational framework.”
+                                               Ref 4.1, Table 4.1
+                                               C. Incorrect. Selecting platforms and services is part
+                                               of obtain/acquire decisions, not an outcome of
+                                               assessing product context during discover. “The
+                                               purpose of the ‘acquire’ activity is to secure and
+                                               allocate necessary resources efficiently, ensuring
+                                               the sustainability and scalability of products and
+                                               services.” Ref 5.1.1
+                                               D. Incorrect. Planning rollout strategies is associated
+                                               with transition activities, not with assessing the
+                                               product context in discover. “The purpose of the
+                                               ‘transition’ activity is to seamlessly introduce new or
+                                               updated products and services into operational
+                                               environments and to ensure the effective
+                                               onboarding/offboarding of suppliers.” Ref 7.1.1
+10         D          2.3.1                    A. Incorrect. Deployment frequency is a metric
+                                               related to ‘build’ and ‘transition’ activities, not
+                                               ‘discover’. “Transition cycle (timeliness and
+                                               duration).” Ref 7.1, Table 7.1
+                                               B. Incorrect. Mean time to restore service is a
+                                               ‘support’/‘operate’ metric, not a ‘discover’ metric.
+                                               “Speed of normal service restoration.”
+                                               Ref 10.1.1, Table 10.1
+                                               C. Incorrect. Automated test coverage relates to
+                                               ‘build’ and testing, not ‘discover’. “Quality of the
+                                               product solutions.” Ref 6.1, Table 6.1
+                                               D. Correct. The purpose of the ‘discover’ activity
+                                               is to ensure that products and related service
+                                               offerings remain strategically aligned, market-
+                                               relevant, and commercially viable. The key
+                                               metrics of success are: “Strategic fit of the
+                                               organization’s products and service offerings,
+                                               market relevance of the products and service
+                                               offerings, stakeholder satisfaction with products
+
+
+
+                    ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   7
+Question            Answer           Assessment               Rationales
+                                     Criteria
+                                                              and service offerings, commercial success of the
+                                                              products (if applicable).” Ref 3.1, Table 3.1
+11                  C                2.3.2                    A. Incorrect. Finalizing direction without validating
+                                                              assumptions contradicts the purpose of the
+                                                              discover activity. “The purpose of the ‘discover’
+                                                              activity is to ensure continual alignment of the
+                                                              product capabilities and related service offerings
+                                                              with the needs of service consumers.” Ref 3.1.1
+                                                              B. Incorrect. Deferring validation until later stages
+                                                              increases cost and risk; discovery recommendations
+                                                              emphasize early validation. “A clear problem
+                                                              statement centres the team on value for real users,
+                                                              avoiding the common pitfall of investing time and
+                                                              money on solutions that don’t have a value
+                                                              justification.” Ref 3.1.3
+                                                              C. Correct. Challenging assumptions with real
+                                                              user evidence is a key practical recommendation
+                                                              for effective discovery. “Decisions must be
+                                                              grounded in measurable data rather than
+                                                              intuition.” Ref 3.4.1
+                                                              D. Incorrect. Prioritizing speed over learning
+                                                              undermines the purpose of discovery, which
+                                                              focuses on reducing uncertainty before design.
+                                                              “Delays and a lack of agility at this stage may
+                                                              become a source of constraints in other lifecycle
+                                                              stages and may ultimately lead to strategic failure of
+                                                              the organization.” Ref 3.2
+12                  B                3.1.1                    A. Incorrect. Human-centred design does not
+                                                              prioritize minimizing iteration or starting from
+                                                              technology choices. It prioritizes user understanding
+                                                              and learning through iteration. “By grounding
+                                                              decisions in validated research, teams avoid
+                                                              speculative assumptions that often lead to costly
+                                                              redesigns later.” Ref 4.1.3
+                                                              B. Correct. Human-centred design in ITIL
+                                                              emphasizes understanding users in context,
+                                                              testing with real users, and iterating prototypes
+                                                              based on feedback. “Human-centred design is a
+                                                              structured design approach that places people’s
+                                                              needs, capabilities, constraints, and contexts at
+                                                              the core of all design decisions.” and through
+                                                              “interviews, surveys, field observations, and
+                                                              analytics reviews designers refine the
+                                                              organization’s understanding of user goals,
+                                                              motivations, pain points, and the environmental
+                                                              constraints that shape experience.” Ref 4.1.3
+                                                              C. Incorrect. Human-centred design in ITIL does not
+                                                              assume complete requirements upfront; it relies on
+                                                              learning and iteration. “This iterative process
+                                                              uncovers usability issues, validates design
+                                                              assumptions, and informs refinements before any
+                                                              code is written.” Ref 4.1.3
+                                                              D. Incorrect. While reuse and consistency are
+                                                              supported through design systems, this alone does
+                                                              not demonstrate human-centred design unless
+
+
+
+8   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer     Assessment               Rationales
+                      Criteria
+                                               grounded in user research and testing. “By
+                                               providing a shared vocabulary, a design system
+                                               accelerates design and development, reduces
+                                               duplication of effort, and maintains brand
+                                               coherence at scale.” Ref 4.1.3
+13         A          10.2.4                   A. Correct. ITIL is positioned as the framework
+                                               for digital product and service management,
+                                               while DevOps provides complementary practices
+                                               and techniques that enhance lifecycle activities.
+                                               The collaboration is described as a combination
+                                               of ITIL’s framework and DevOps’ methods.
+                                               “While ITIL provides a robust framework for
+                                               digital product and service management, many
+                                               enterprises are now integrating DevOps
+                                               practices to accelerate product development
+                                               and optimize product operation.” Also, “While
+                                               ITIL® provides the framework for effective digital
+                                               product and service management, no single
+                                               framework is enough for successful work in
+                                               today's diverse business and technology
+                                               ecosystems.” Ref 12.5.1
+                                               B. Incorrect. DevOps is described as an extension
+                                               and complementary approach, not something that
+                                               is replaced by ITIL processes. “Certifications such as
+                                               PRINCE2® (for agile project, programme, and
+                                               portfolio management) and those from the DEVOPS
+                                               INSTITUTE® (DOI, for agile, continuous product
+                                               development and operation) offer powerful
+                                               extensions to the ITIL framework.” Ref 12.5
+                                               C. Incorrect. DevOps is linked to multiple lifecycle
+                                               activities across the ITIL Product and Service
+                                               Lifecycle, not restricted to software development
+                                               alone. “DevOps is a valuable complementary
+                                               approach which should be used as a source of
+                                               detailed practical advice enabling such activities of
+                                               the ITIL Product and Service Lifecycle as ‘discover’,
+                                               ‘design’, ‘acquire’, ‘build’, ‘transition’, and ‘operate’.”
+                                               Ref 12.5.1
+                                               D. Incorrect. The text clearly positions ITIL as the
+                                               framework and DevOps as an extension to it, not as
+                                               a governance layer above ITIL. “While ITIL® provides
+                                               the framework for effective digital product and
+                                               service management, no single framework is
+                                               enough for successful work in today's diverse
+                                               business and technology ecosystems.” Ref 12.5
+14         C          3.2.2                    A. Incorrect. Defining monitoring thresholds is part
+                                               of the ‘operate’ activity, not ‘design’. “The purpose of
+                                               the ‘operate’ activity is to maintain and monitor
+                                               digital products and services and supporting
+                                               systems, ensuring optimal performance and
+                                               reliability.” Ref 8.1.1
+                                               B. Incorrect. Feature prioritization is driven by
+                                               discover outputs and portfolio decisions, not by
+                                               design steps. “The high-level workflow of the
+
+
+
+
+                    ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   9
+Question           Answer           Assessment               Rationales
+                                    Criteria
+                                                             ‘discover’ activity comprises four steps […] Prioritize
+                                                             actions and allocate resources.” Ref 3.2
+                                                             C. Correct. Producing architectural designs is a
+                                                             key step of the ‘design’ activity. “The ‘design’
+                                                             activity translates strategic intent into concrete
+                                                             solution designs that can be built, operated, and
+                                                             supported effectively by service providers.”
+                                                             Ref 4.1.2
+                                                             D. Incorrect. Planning phased releases is part of the
+                                                             ‘transition’ activity, not design. “The purpose of the
+                                                             ‘transition’ activity is to seamlessly introduce new or
+                                                             updated products and services into operational
+                                                             environments […].” Ref 7.1.1
+15                 A                3.3.1                    A. Correct. A critical success factor of the ‘design’
+                                                             activity is early and ongoing cross-functional
+                                                             collaboration, especially with teams responsible
+                                                             for ‘build’, ‘transition’, ‘operate’, ‘deliver’, and
+                                                             ‘support’, to prevent downstream rework.
+                                                             “Cross-disciplinary collaboration and shared
+                                                             ownership.” Ref 4.4.3, Table 4.5
+                                                             B. Incorrect. Increasing deployment frequency is not
+                                                             a ‘design’ improvement action; it relates to
+                                                             ‘transition’ or ‘operate’. “The purpose of the
+                                                             ‘transition’ activity is to seamlessly introduce new or
+                                                             updated products and services into operational
+                                                             environments […].” Ref 7.1.1
+                                                             C. Incorrect. Automation improves ‘build’ efficiency
+                                                             but does not directly address design effectiveness
+                                                             or rework. “The ‘build’ activity can and should be
+                                                             highly automated, enabling continuous integration.”
+                                                             Ref 6.1.3
+                                                             D. Incorrect. Analysis of live service incidents
+                                                             belongs to ‘operate’ and ‘support’, not ‘design’.
+                                                             “Product performance records and reports.”
+                                                             Ref 8.1, Table 8.1
+16                 A                3.3.2                    A. Correct. Applying iterative validation ensures
+                                                             designs remain aligned with real needs and
+                                                             constraints. “The design of digital products is
+                                                             performed in iterations and experiments, and
+                                                             includes checkpoints with service providers and
+                                                             users.” Ref 4.1.2.3
+                                                             B. Incorrect. Freezing the design early to reduce
+                                                             rework contradicts the iterative and experimental
+                                                             nature of effective design, which includes validation
+                                                             checkpoints before finalization. “The design of
+                                                             digital products is performed in iterations and
+                                                             experiments, and includes checkpoints with service
+                                                             providers and users.” Ref 4.1.2.3
+                                                             C. Incorrect. Delegating design decisions without
+                                                             shared validation undermines collaboration and
+                                                             design quality. “Effective design emerges from
+                                                             collaboration among product managers, developers,
+                                                             engineers, researchers, and marketers.” Ref 4.4.1
+                                                             D. Incorrect. Restricting design input to
+                                                             documentation alone ignores learning through
+
+
+
+10   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+                                             interaction and feedback, which is discouraged.
+                                             “Designers make no assumptions that work done
+                                             through the ‘discover’ activity is complete, accurate,
+                                             or even still valid.” Ref 4.2.1.1
+17         C        8.1.2                    A. Incorrect. Service request management focuses
+                                             on fulfilling user requests rather than defining,
+                                             monitoring, or reporting overall service quality.
+                                             “Service request management: Fulfilling service
+                                             requests.” Ref 9.3 Table 9.2
+                                             B. Incorrect. Knowledge management supports
+                                             delivery by organizing and providing knowledge, but
+                                             it does not define or monitor service quality.
+                                             “Knowledge management: Captures, organizes, and
+                                             provides service-related knowledge and advice.”
+                                             Ref 9.3 Table 9.3
+                                             C. Correct. Service level management is the
+                                             practice responsible for managing and reporting
+                                             service quality, directly aligning with defining,
+                                             monitoring, and reporting service performance
+                                             during delivery. “Service level management:
+                                             Managing and reporting of service quality.”
+                                             Ref 9.3 Table 9.2
+                                             D. Incorrect. Monitoring and event management
+                                             tracks service delivery performance but does not
+                                             define or manage service quality commitments.
+                                             “Monitoring and event management: Monitoring
+                                             and reporting service delivery.” Ref 9.3 Table 9.2
+18         D        4.2.1                    A. Incorrect. Approved designs and architectural
+                                             models are outputs of the ‘design’ activity, not
+                                             ‘acquire’. “Product specifications and prototypes.”
+                                             Ref 4.1, Table 4.1
+                                             B. Incorrect. Integrated and tested components are
+                                             outputs of the ‘build’ activity. “Built and tested
+                                             product solutions.” Ref 6.1, Table 6.1
+                                             C. Incorrect. Deployed services are outputs of
+                                             ‘transition’ and ‘delivery’ activities. “Products,
+                                             services, and resources deployed to the target live
+                                             environment and ready for operation.”
+                                             Ref 7.1, Table 7.1
+                                             D. Correct. The ‘acquire’ activity is completed
+                                             when resources and services have been secured
+                                             and allocated, and agreements are in place,
+                                             enabling subsequent ‘build’ and ‘operate’
+                                             activities. “The key outputs are: approved
+                                             resource requests, new or modified agreements
+                                             (SLA, Terms and Conditions, licence agreements),
+                                             new and modified configuration items and
+                                             assets, new partners or suppliers.” Ref 5.2.2
+19         C        4.2.2                    A. Incorrect. Deployment speed is a ‘transition’
+                                             concern and does not provide sufficient insight into
+                                             suitability or sustainability of sourcing options. The
+                                             ‘acquire’ “activity aims to quickly identify and
+                                             allocate necessary resources to optimize the value
+                                             outcomes of new and modified products while
+                                             minimizing waste and expense.” Ref 5.1.1
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   11
+Question           Answer           Assessment               Rationales
+                                    Criteria
+                                                             B. Incorrect. Cost is an important factor, but
+                                                             selecting solely on cost ignores capability,
+                                                             compliance, and integration risks emphasized in the
+                                                             ‘acquire’ activity. “Total cost of ownership: what are
+                                                             the costs over the lifecycle of the product for
+                                                             licences, support, training, deprecation, and
+                                                             replacement?” Ref 5.1.4
+                                                             C. Correct. Evaluating options holistically against
+                                                             these criteria demonstrates correct application
+                                                             of the sourcing assessment step. “When this
+                                                             happens, sourcing options must be assessed,
+                                                             and new contracts or agreements need to be
+                                                             arranged.” Ref 5.1.3
+                                                             D. Incorrect. Delivery team preference alone does
+                                                             not address strategic, regulatory, or lifecycle
+                                                             considerations required when assessing sourcing
+                                                             options. “Clear communication of the decision
+                                                             matrix, ownership of budgets, and portfolio and
+                                                             procurement management policies allow the
+                                                             appropriate decisions to be made […]” Ref 5.1.3
+20                 C                4.3.1                    A. Incorrect. Automation of build and test activities
+                                                             belongs to ‘build’, not ‘acquire’. “The ‘build’ activity
+                                                             can and should be highly automated, enabling
+                                                             continuous integration.” Ref 6.1.3
+                                                             B. Incorrect. Accelerating approvals for releases
+                                                             relates to ‘transition’, not ‘acquire’. “The purpose of
+                                                             the ‘transition’ activity is to seamlessly introduce
+                                                             new or updated products and services into
+                                                             operational environments […].” Ref 7.1.1
+                                                             C. Correct. A critical success factor of the
+                                                             ‘acquire’ activity is ensuring that resources and
+                                                             suppliers are secured in alignment with the
+                                                             product roadmap and timelines. Delivery delays
+                                                             caused by unavailable tools and services directly
+                                                             indicate poor coordination in ‘acquire’.
+                                                             “Adherence to the product roadmap and other
+                                                             relevant guidelines.” Ref 5.1, Table 5.1
+                                                             D. Incorrect. Incident resolution speed is a ‘support’
+                                                             concern, not related to ‘acquire’ delays. “Speed of
+                                                             normal service restoration.” Ref 10.1.1, Table 10.1
+21                 B                4.3.2                    A. Incorrect. Full standardization may ignore
+                                                             regulatory constraints and contradicts effective
+                                                             acquisition guidance. “Regulations, standards,
+                                                             insurers, and investors may constrain most
+                                                             acquisition choices about digital products and their
+                                                             required capabilities for storage, transit, use,
+                                                             security, categorization, and retention of data and
+                                                             information.” Ref 5.1.4
+                                                             B. Correct. A key practical recommendation for
+                                                             effective acquisition is to consider regulatory,
+                                                             compliance, and integration requirements early,
+                                                             before committing to suppliers. Addressing
+                                                             these factors early reduces risk and rework.
+                                                             “When acquiring these resources externally, it is
+                                                             especially important to consider intellectual
+
+
+
+12   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+                                             property rights, data ownership and sovereignty,
+                                             and global compliance and regulations.” Ref 5.1.4
+                                             C. Incorrect. Independent contracting without
+                                             coordination increases fragmentation and risk.
+                                             “Clear communication of the decision matrix,
+                                             ownership of budgets, and portfolio and
+                                             procurement management policies allow the
+                                             appropriate decisions to be made […]” Ref 5.1.3
+                                             D. Incorrect. Addressing compliance after go-live
+                                             exposes the organization to avoidable risk. “Careful
+                                             consideration should be taken to determine if these
+                                             resources should be acquired externally or
+                                             assembled internally. […] especially important to
+                                             consider […] global compliance and regulations.”
+                                             Ref 5.1.4
+22         D        5.1.1                    A. Incorrect. Build activities are not independent of
+                                             design; design prepares solutions so they can be
+                                             built and supported effectively. “The ‘design’ activity
+                                             translates strategic intent into concrete solution
+                                             designs that can be built, operated, and supported
+                                             effectively by service providers, while enabling the
+                                             intended outcomes for end users.” Ref 4.1.2
+                                             B. Incorrect. ‘Design’ produces implementation-
+                                             ready artefacts, not just early planning outputs.
+                                             “Product specifications and prototypes.”
+                                             Ref 4.1, Table 4.1
+                                             C. Incorrect. Validating user needs is primarily part
+                                             of ‘discover’, while ‘build’ focuses on developing
+                                             solutions based on ‘design’. “The purpose of the
+                                             ‘discover’ activity is to ensure continual alignment of
+                                             the product capabilities and related service offerings
+                                             with the needs of service consumers and with the
+                                             organizational strategy.” Ref 3.1.1
+                                             D. Correct. ‘Build’ depends on ‘design’ outputs,
+                                             and ‘design’ outputs are inputs to subsequent
+                                             lifecycle management activities, showing tight
+                                             coordination. “The outputs of the ‘design’
+                                             activity serve as an important input to all
+                                             subsequent activities of digital product and
+                                             service management.” Ref 4.2
+23         D        5.2.1                    A. Incorrect. ‘Design’ specifications and prototypes
+                                             are outputs of the ‘design’ activity, not of ‘build’.
+                                             “Product specifications and prototypes.” Ref 4.1,
+                                             Table 4.1
+                                             B. Incorrect. Contracted services and allocated
+                                             resources are outputs of the ‘acquire’ activity.
+                                             “Acquired resources and services.” Ref 5.1, Table 5.1
+                                             C. Incorrect. Operational reports and incident data
+                                             are produced during the ‘operate’ activity.
+                                             “Operating products and services. Product
+                                             performance records and reports.” Ref 8.1, Table 8.1
+                                             D. Correct. The ‘build’ activity produces built and
+                                             tested product solutions, which are then ready
+                                             to move into ‘transition’. “Built and tested
+                                             product solutions.” Ref 6.1, Table 6.1
+
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   13
+Question           Answer           Assessment               Rationales
+                                    Criteria
+24                 A                5.2.2                    A. Correct. The first step of the ‘build’ activity is
+                                                             assessing the solution design to ensure that
+                                                             what will be built aligns with the approved
+                                                             design specifications and expected outcomes
+                                                             before development begins. This includes
+                                                             structuring build work so that components
+                                                             clearly reflect the agreed design. The steps of
+                                                             the ‘build’ activity are: “Assess solution design.
+                                                             Plan building and testing and confirm resource
+                                                             availability. Execute building and testing plans.
+                                                             Deliver solutions and supporting
+                                                             documentation.” Ref 6.2, 6.2.1.1
+                                                             B. Incorrect. Scheduling deployment windows is part
+                                                             of the ‘transition’ activity, not the ‘build’ activity. “The
+                                                             purpose of the ‘transition’ activity is to seamlessly
+                                                             introduce new or updated products and services
+                                                             into operational environments […].” Ref 7.1.1
+                                                             C. Incorrect. Training support teams are associated
+                                                             with transition and support readiness, not build. “A
+                                                             key aspect of product-level transition is training and
+                                                             enablement for both service provider staff and,
+                                                             where appropriate, customer personnel.” Ref 7.1.2.2
+                                                             D. Incorrect. Feature prioritization is driven by
+                                                             discovery and portfolio decisions, not performed as
+                                                             a step within ‘build’. “The high-level workflow of the
+                                                             ‘discover’ activity comprises four steps […]. Prioritize
+                                                             actions and allocate resources.” Ref 3.2
+25                 B                5.3.1                    A. Incorrect. This is about release approval speed,
+                                                             which is a primary reason for collaboration in the
+                                                             ‘build’ activity. The ‘build’ activity is concerned with
+                                                             constructing and validating solutions so that they
+                                                             are technically sound and ready for subsequent
+                                                             lifecycle stages. While release speed may be
+                                                             influenced by good build practices, collaboration is
+                                                             not a mechanism for accelerating approvals. “The
+                                                             goal of assessing the solution design is to ensure:
+                                                             That the design requirements are clear and that the
+                                                             build specifications will contribute the expected
+                                                             value.” Ref 6.2.1.1
+                                                             B. Correct. ‘Build’ requires coordination between
+                                                             product managers, business analysts, architects,
+                                                             and development teams to break down design
+                                                             into build units and ensure feasibility,
+                                                             verifiability, and integration readiness.
+                                                             Collaboration is essential to confirm that the
+                                                             ‘build’ model is fit for purpose and that
+                                                             outcomes can be validated through testing. “The
+                                                             build requirements are discussed with the
+                                                             product manager, business analysts and
+                                                             technical and architectural leads. The goal of the
+                                                             solution design assessment is to break the
+                                                             solution design into specific build specifications
+                                                             and build units.” Ref 6.2.1.1
+                                                             C. Incorrect. Prioritization of product ideas is not a
+                                                             core objective of ‘build’. That activity is handled
+
+
+
+14   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+                                             earlier in the lifecycle (particularly in ‘discover’ and
+                                             ‘design’). Executing is based on defined
+                                             specifications. The emphasis is on transforming
+                                             ‘design’ into ‘build’ units and ensuring technical
+                                             feasibility. “A key concept of waterfall models is
+                                             structuring the build specifications and build units
+                                             sequentially from start to finish to facilitate aligning
+                                             and scheduling resources and dependencies and
+                                             ensure a continual progression from ‘design’ to
+                                             ‘operate’.” Ref 6.2.1.1
+                                             D. Incorrect. Customer communication during
+                                             service delivery and operation belongs to later
+                                             lifecycle stages such as ‘deliver’ and ‘operate’, not
+                                             ‘build’. The focus here is on development execution,
+                                             technical validation, and readiness for transition.
+                                             While ‘build’ output eventually affects customers,
+                                             the collaboration is internal and technical in nature.
+                                             “How, and by whom, will the solution be
+                                             transitioned, operated, delivered, and supported?”
+                                             Ref 6.2.1
+26         A        8.2.2                    A. Correct. The scenario describes reviewing
+                                             existing SLAs and onboarding procedures before
+                                             activating the feature. This corresponds
+                                             precisely to the first step of the ‘deliver’ activity,
+                                             which requires reviewing commitments defined
+                                             in service agreements prior to delivery
+                                             execution. “‘Deliver’ begins by reviewing the
+                                             commitments defined in service agreements.
+                                             This includes assessing SLAs, service requests,
+                                             and events that may impact delivery. The goal is
+                                             to ensure that delivery is grounded in clearly
+                                             defined expectations and that any risks to
+                                             performance or availability are identified early.”
+                                             Ref 9.2.1.1
+                                             B. Incorrect. This step occurs after commitments
+                                             have been reviewed and clarified. It involves
+                                             confirming procedures, tools, and resource
+                                             availability. The scenario does not describe
+                                             confirming delivery plans or resource allocation.
+                                             “Once commitments are clear, providers create or
+                                             adapt a delivery plan. This involves confirming the
+                                             procedures, tools, and resources (such as staff,
+                                             suppliers, and automation capabilities) required to
+                                             meet commitments. Plans also establish roles and
+                                             responsibilities to ensure accountability during
+                                             delivery.” Ref 9.2.1.2
+                                             C. Incorrect. Execution occurs only after assessment
+                                             and planning have been completed. The feature has
+                                             not yet been activated; therefore, delivery execution
+                                             has not started. “The final step is execution: fulfilling
+                                             service requests, carrying out onboarding and
+                                             offboarding, or completing scheduled service
+                                             actions. Delivery does not end with fulfilment; it also
+                                             involves capturing evidence, reporting outcomes,
+                                             and gathering user feedback.” Ref 9.2.1.3
+
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   15
+Question           Answer           Assessment               Rationales
+                                    Criteria
+                                                             D. Incorrect. Incident capture and recovery actions
+                                                             belong to the ‘support’ activity, which is triggered
+                                                             when incidents or disruptions occur. The scenario
+                                                             describes preparatory review, not incident
+                                                             response. “The purpose of the ‘support’ activity is to
+                                                             identify and resolve incidents, fulfil disaster recovery
+                                                             procedures, and capture consumer’s feedback.”
+                                                             Ref 10.1.1
+27                 C                6.1.1                    A. Incorrect. This describes a single “big-bang”
+                                                             release. But ‘transition’ can involve many updates
+                                                             deployed in a short timeframe. “In a digital product
+                                                             environment, the ‘transition’ activity may be highly
+                                                             or fully automated, allowing for many product or
+                                                             component updates to be deployed in a short
+                                                             timeframe.” Ref 7.2
+                                                             B. Incorrect. This describes a single release event.
+                                                             ‘Transition’ happens as frequently as needed,
+                                                             triggered by new built solutions or acquired
+                                                             resources. “As frequently as needed, triggered by
+                                                             built solutions or acquired resources and services
+                                                             (subject to the organization’s deployment policies
+                                                             and guidelines).” Ref 7.1, Table 7.1
+                                                             C. Correct. It is suggested that ‘transition’ takes
+                                                             place in incremental and phased releases to
+                                                             reduce risk and enable learning and adjustment
+                                                             between releases. “In a digital product
+                                                             environment, the ‘transition’ activity may be
+                                                             highly or fully automated, allowing for many
+                                                             product or component updates to be deployed in
+                                                             a short timeframe.” Ref 7.2
+                                                             D. Incorrect. ‘Transition’ as triggered by built
+                                                             solutions/acquired resources and is performed as
+                                                             frequently as needed. ‘Transition’ is part of getting
+                                                             things into the live environment. “As frequently as
+                                                             needed, triggered by built solutions or acquired
+                                                             resources and services (subject to the organization’s
+                                                             deployment policies and guidelines).”
+                                                             Ref 7.1, Table 7.1
+28                 C                6.2.1                    A. Incorrect. Design specifications and architecture
+                                                             models are outputs of ‘design’, not ‘transition’ or
+                                                             ‘support’. The key outputs for the ‘design’ activity are
+                                                             “Product specifications and prototypes.”
+                                                             Ref 4.1, Table 4.1
+                                                             B. Incorrect. Supplier contracts and allocated
+                                                             resources are outputs of ‘acquire’, not related to
+                                                             post-transition usability or ‘support’. The key
+                                                             outputs for the ‘acquire’ activity are “Acquired
+                                                             resources and services.” Ref 5.1, Table 5.1
+                                                             C. Correct. After ‘transition’, a product must be
+                                                             usable and supportable. Operational
+                                                             documentation, knowledge, and support
+                                                             readiness enable effective use and ongoing
+                                                             support. “Each ‘transition’ cycle addresses both
+                                                             the knowns and unknowns: ensuring that
+                                                             environments are ready, documentation is
+
+
+
+16   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+                                             complete, dependencies are satisfied, and teams
+                                             are aligned.” Ref 7.2.1
+                                             D. Incorrect. Defect logs are associated with ‘build’,
+                                             not with ensuring effective use and support after
+                                             transition. The key outputs for the ‘build’ activity are
+                                             “Built and tested product solutions.”
+                                             Ref 6.1, Table 6.1
+29         C        6.2.2                    A. Incorrect. Checking the live environment after
+                                             release is reactive and occurs too late. Transition
+                                             preparation is about ensuring readiness before
+                                             execution, not post-release validation. “The purpose
+                                             of the ‘transition’ activity is to seamlessly introduce
+                                             new or updated products and services into
+                                             operational environments […].” Ref 7.1.1
+                                             B. Incorrect. Post-transition debriefs occur after
+                                             execution, not during preparation. They are
+                                             valuable, but they do not convert assessment
+                                             outputs into actionable readiness. “Within one to
+                                             two days, a post-transition debrief takes place to
+                                             capture lessons learned, recognize achievements,
+                                             and identify improvement opportunities.” Ref 7.2.1.3
+                                             C. Correct. After assessing solutions and
+                                             transition requirements, the next core
+                                             transition step is to plan transition activities and
+                                             confirm resource availability. “The four steps of
+                                             the ‘transition’ activity are: Assess solutions and
+                                             transition requirements. Plan transition
+                                             activities and confirm resource availability.
+                                             Execute transition plans. Communicate
+                                             transition results to stakeholders.” Ref 7.2
+                                             D. Incorrect. Transition results reporting happens
+                                             after transition execution, not during preparation.
+                                             “Communicate transition results to stakeholders.”
+                                             Ref 7.2
+30         B        6.3.2                    A. Incorrect. Assuming automatic alignment
+                                             increases risk and contradicts structured handoff
+                                             guidance. “Transition is not just about deployment.
+                                             It’s about preparing the entire ecosystem to run.”
+                                             Ref 7.1.1
+                                             B. Correct. The scenario highlights that “supplier
+                                             onboarding was critical,” and the guidance
+                                             recommends formalizing ownership and
+                                             escalation paths to avoid post-transition
+                                             instability. “Onboarding suppliers is also
+                                             considered a form of transition.” and
+                                             “’Transition’ includes ensuring that the new or
+                                             updated products are integrated into the live
+                                             environment and are ready for product
+                                             operation and service delivery.” Ref 7.1
+                                             C. Incorrect. Contract management alone does not
+                                             ensure operational readiness. “This activity ensures
+                                             that what was built can be operated. It includes
+                                             planning, testing, onboarding, documentation
+                                             handovers, risk mitigation, and cultural alignment
+
+
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   17
+Question           Answer           Assessment               Rationales
+                                    Criteria
+                                                             between teams. The ‘transition’ activity may also
+                                                             involve onboarding external suppliers […]” Ref 7.1.1
+                                                             D. Incorrect. Waiting for issues to occur contradicts
+                                                             proactive transition practices. “A successful
+                                                             transition means that a product solution goes live in
+                                                             a meaningful, observable, supportable, and
+                                                             sustainable way.” Ref 7.1.1
+31                 C                7.1.2                    A. Incorrect. Deployment management concerns
+                                                             moving components into live environments. It does
+                                                             not primarily provide visibility into the health and
+                                                             performance of live products and services.
+                                                             “Deployment management practice:
+                                                             The practice of moving new or changed hardware,
+                                                             software, documentation, processes, or any other
+                                                             service component to one of the controlled
+                                                             environments.” Ref Glossary
+                                                             B. Incorrect. Release management ensures
+                                                             availability of new or changed services. It does not
+                                                             primarily monitor or provide visibility into
+                                                             operational health and performance. “Release
+                                                             management practice: The practice of making new
+                                                             and changed services and features available for
+                                                             use.” Ref Glossary
+                                                             C. Correct. This practice directly enables visibility
+                                                             into the health and performance of live products
+                                                             and services. “Monitoring and event
+                                                             management: Monitoring and reporting of the
+                                                             service’s operational status, processing of
+                                                             events.” Ref 8.3, Table 8.2
+                                                             D. Incorrect. Business analysis focuses on defining
+                                                             needs and requirements, not on operational
+                                                             monitoring. “Business analysis practice: The practice
+                                                             of analysing a business or some element of a
+                                                             business, defining its needs and recommending
+                                                             solutions to address these needs and/or solve a
+                                                             business problem, and create value for
+                                                             stakeholders. Ref Glossary
+32                 D                7.2.1                    A. Incorrect. Roadmaps and backlogs are outputs of
+                                                             ‘discover’, not ‘operate’. “The key outputs of this
+                                                             activity include refined backlogs, updated product
+                                                             roadmaps, continual improvement initiatives, as
+                                                             well as reports and documentation of findings from
+                                                             the activity.” Ref 3.2.2
+                                                             B. Incorrect. Supplier contracts and allocated
+                                                             resources are outputs of ‘acquire’, not ‘operate’. The
+                                                             key outputs of this activity are “Acquired resources
+                                                             and services.” Ref 5.1, Table 5.1
+                                                             C. Incorrect. Prototyping and design changes belong
+                                                             to the ‘design’ activity. The key outputs of this
+                                                             activity are “Product specifications and prototypes.”
+                                                             Ref 4.1, Table 4.1
+                                                             D. Correct. The ‘operate’ activity is concerned
+                                                             with running products and services in live
+                                                             environments and monitoring their
+                                                             performance. Its outputs therefore include
+
+
+
+18   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+                                             operational data and performance information,
+                                             showing how well products and services are
+                                             functioning during use. The key outputs of this
+                                             activity are “Operating products and services.
+                                             Product performance records and reports.”
+                                             Ref 8.1, Table 8.1
+33         C        7.2.2                    A. Incorrect. Ignoring recurring errors contradicts
+                                             the intent of daily health checks and early detection.
+                                             “An important trend in digital product operations is
+                                             the shift from reactive to proactive approach and to
+                                             closer integration with other stages of the digital
+                                             product and service lifecycle.” Ref 8.1
+                                             B. Incorrect. Delaying action increases risk and does
+                                             not align with immediate execution guidance.
+                                             “Effective product operation is a key factor of service
+                                             reliability.” Ref 8.1
+                                             C. Correct. This directly reflects execution of
+                                             operational plans and reporting. ‘Operate’
+                                             includes routine operational tasks such as
+                                             monitoring and maintenance that prevent
+                                             incidents: “This includes routine operational
+                                             tasks such as monitoring, performance tuning,
+                                             backups, housekeeping, and technical
+                                             maintenance that prevent incidents and service
+                                             degradation.” Also, “When the health‑check
+                                             surfaces an issue, it is escalated according to a
+                                             predefined runbook.” Ref 8.1.2, Ref 8.2.1.3
+                                             D. Incorrect. Disabling alerts contradicts the
+                                             purpose of monitoring during ‘operate’, which is to
+                                             capture and process events, not suppress them. The
+                                             ‘operate’ activity: “Monitoring of the product health,
+                                             Capturing and processing relevant events.”
+                                             Ref 2.1.1, Table 2.1.
+34         C        7.3.2                    A. Incorrect. Introducing AI without structured data
+                                             risks amplifying noise rather than improving
+                                             operations. “Many organizations try to implement AI
+                                             before organizing their operational data landscape.”
+                                             Ref 8.4.3
+                                             B. Incorrect. Raising thresholds may hide symptoms
+                                             but does not address underlying data quality issues.
+                                             “The architecture of data, the modelling of
+                                             observability, and proper event hygiene must all
+                                             come first.” Ref 8.4.3
+                                             C. Correct. The guidance states that data
+                                             architecture, modelling, and event hygiene must
+                                             come before any AIOps initiative to avoid failure.
+                                             “Many organizations try to implement AI before
+                                             organizing their operational data landscape.”
+                                             Ref 8.4.3
+                                             D. Incorrect. Replacing tools without addressing
+                                             data quality repeats the same operational
+                                             weaknesses. “Buying tools because they’re trendy,
+                                             without a clear outcome in mind, is a fast track to
+                                             failure.” Ref 8.4.3
+
+
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   19
+Question           Answer           Assessment               Rationales
+                                    Criteria
+35                 A                9.1.2                    A. Correct. The ‘support’ activity handles user
+                                                             issues, requests, and queries. The practice that
+                                                             directly performs this function is the service
+                                                             desk, which acts as the primary point of contact
+                                                             between users and the organization. “Service
+                                                             desk: Communicating with users requiring
+                                                             support.” Ref 10.3, Table 10.2
+                                                             B. Incorrect. Service level management focuses on
+                                                             agreements and targets, not handling user queries.
+                                                             It ensures that “recovery times and resolutions align,
+                                                             and feedback is gathered for continual
+                                                             improvement.” Ref 10.3, Table 10.2
+                                                             C. Incorrect. Release management ensures
+                                                             controlled introduction of changes but does not
+                                                             directly manage user issues or queries. “Release
+                                                             management: Ensuring that changes and releases
+                                                             are introduced in a controlled way that support
+                                                             teams can manage.” Ref 10.3, Table 10.2
+                                                             D. Incorrect. Problem management focuses on root
+                                                             causes, not direct handling of queries. It is often
+                                                             “Investigating incidents, detecting product and
+                                                             service errors and initiating improvements.”
+                                                             Ref 10.3, Table 10.2
+36                 C                9.2.2                    A. Incorrect. This is a metric of ‘operate’, not an
+                                                             output of ‘support’. “Live products’ reliability,
+                                                             performance, and information security.”
+                                                             Ref 8.1, Table 8.1
+                                                             B. Incorrect. This is a key output of ‘build’. “Built and
+                                                             tested product solutions.” Ref 6.1, Table 6.1
+                                                             C. Correct. The ‘support’ activity’s contribution to
+                                                             the digital product and service lifecycle is not
+                                                             just keeping services running, but capturing
+                                                             knowledge and insights from user interactions,
+                                                             incidents, and service requests, which then
+                                                             inform continual improvement across the
+                                                             lifecycle. “The ‘support’ activity aims to restore
+                                                             normal work and use of the product and related
+                                                             services as quickly and safely as possible when
+                                                             something goes wrong or when users need help,
+                                                             while learning from each case to prevent
+                                                             recurrence. This includes structured processes
+                                                             for handling incidents and disasters, as well as
+                                                             integration with problem management and
+                                                             continual improvement.” Ref 10.1.2
+                                                             D. Incorrect. This is the outcome of ‘transition’.
+                                                             “Products, services, and resources deployed to the
+                                                             target live environment and ready for operation.”
+                                                             Ref 7.1, Table 7.1
+
+
+
+
+20   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Question   Answer   Assessment               Rationales
+                    Criteria
+37         D        9.2.1                    A. Incorrect. That action belongs to the first step, not
+                                             the final step. Step 1 is “Identify and assess incidents
+                                             and disasters.” Ref 10.2
+                                             B. Incorrect. Blame-focused reviews undermine
+                                             systemic improvement and psychological safety.
+                                             “The ‘support’ activity aims to restore normal work
+                                             and use of the product and related services as
+                                             quickly and safely as possible when something goes
+                                             wrong or when users need help, while learning from
+                                             each case to prevent recurrence.” Ref 10.1.2
+                                             C. Incorrect. Adjusting alerts may help detection but
+                                             does not address root causes or learning. “All
+                                             improvement items, from updating run-books to
+                                             fine-tuning anomaly thresholds, are automatically
+                                             entered into the backlog.” Ref 10.2.1.3
+                                             D. Correct. The ‘support’ activity concludes with
+                                             structured reviews, metrics analysis, and logging
+                                             improvement actions into backlogs to prevent
+                                             recurrence. “Review and report support actions.”
+                                             Ref 10.2
+38         B        9.3.2                    A. Incorrect. Delaying communication increases
+                                             frustration and contradicts effective support
+                                             practices. “Once an incident is classified, the
+                                             responsible lead activates […] external
+                                             communication, and security for breach
+                                             considerations.” Ref 10.2.1.2
+                                             B. Correct. Engaging users during an incident and
+                                             restoring service using structured support
+                                             pathways aligns directly with these
+                                             recommendations. “Provide real-time status
+                                             indicators for ongoing incidents, giving users
+                                             immediate visibility into whether their issue is
+                                             isolated or part of a larger outage.” Also, “offer
+                                             multiple resolution pathways (self-serve, guided
+                                             walkthroughs, or live agent chat), allowing users
+                                             to choose the level of assistance that matches
+                                             their comfort and urgency.” Ref 10.4.3
+                                             C. Incorrect. Escalating to product design before
+                                             restoring service does not align with immediate
+                                             incident response actions. Product improvements
+                                             follow resolution rather than replace it. “Integrate
+                                             the survey insights into the product roadmap
+                                             backlog, ensuring that recurring pain points are
+                                             addressed by product teams rather than being
+                                             endlessly patched by support.” Ref 10.4.3
+                                             D. Incorrect. Ignoring user communication
+                                             undermines trust during incidents. “For every third-
+                                             party component (such as a payment gateway, CDN,
+                                             or SaaS API),[…] stakeholders and customers receive
+                                             consistent, timely updates.” Ref 10.4.1
+
+
+
+
+                ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   21
+Question           Answer           Assessment               Rationales
+                                    Criteria
+39                 B                10.1.5                   A. Incorrect. This has to do with ‘support’, not
+                                                             product management. “Resolving incidents and
+                                                             restoring normal product operation and service
+                                                             delivery” Ref 10.3, Table 10.2
+                                                             B. Correct. Effective digital product management
+                                                             is cross-functional and dependent on ongoing
+                                                             collaboration across roles. This is reinforced as a
+                                                             critical success factor across lifecycle
+                                                             management activities (especially ‘design’ and
+                                                             ‘build’). “Customers, product managers,
+                                                             designers, engineers, service professionals, and
+                                                             other stakeholders must collaborate early and
+                                                             often, and make their work visible.” Ref 3.4.1
+                                                             C. Incorrect. This has to do with ‘operate’. A key
+                                                             output is “Product performance records and
+                                                             reports.” Ref 8.1, Table 8.1
+                                                             D. Incorrect. Effective product management embeds
+                                                             governance into everyday delivery work rather than
+                                                             relying on centralized formal approval of every
+                                                             product change. “Policy-as-code, data-lineage and
+                                                             model-governance controls, and standardized
+                                                             decision-rights documented in a concise governance
+                                                             handbook embed compliance and ethics into
+                                                             everyday delivery work.” Ref 11.1
+40                 B                10.1.3                   A. Incorrect. Value streams may include only the
+                                                             activities required to create value in a given context.
+                                                             Value streams “are the actual sequence of activities
+                                                             performed, rather than a predetermined blueprint.”
+                                                             This indicates that not all value streams include
+                                                             every lifecycle stage. Ref 11.4
+                                                             B. Correct. Value streams are contextual and
+                                                             flexible. They are defined based on how value is
+                                                             created and consumed, not as fixed sequences.
+                                                             “Organizations select the product and service
+                                                             management activities they will be responsible
+                                                             for, and this defines their service offering.”
+                                                             Ref 11.4.1
+                                                             C. Incorrect. Value streams differ based on
+                                                             organizational context and operating model. Real
+                                                             "world workflows, although based on established
+                                                             processes and other workflows, are always unique.”
+                                                             Ref 11.4
+                                                             D. Incorrect. Value streams are designed to align
+                                                             with value creation and business models, not to
+                                                             optimize internal efficiency in isolation. “Value
+                                                             stream mapping and management optimize the
+                                                             flow of work and value creation for customers and
+                                                             other stakeholders.” Ref 11.4.4
+
+
+
+
+22   ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited
+Notes
+
+
+
+
+        ITIL® Product | Sample Paper 1 Answers and Rationales | Copyright © PeopleCert International Limited   23
+Thank you
+for completing this course!
+Please take a few minutes to give us your feedback on your
+experiences and learning from the course by completing
+the online course evaluation survey here.
+
+
+
+
+                                    PeopleCert has been accredited by Lloyd’s Register,
+                                    UK (now LRQA), in accordance with ISO 14001 for
+    ESG                             Environmental Management since 2006. Recognized
+    Commitment                      through numerous awards, we remain committed to
+                                    ESG leadership and the preservation of our planet.
+

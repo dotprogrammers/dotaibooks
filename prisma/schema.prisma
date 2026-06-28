@@ -1,0 +1,120 @@
+// ITIL 5 Trainer Database Schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Uploaded study materials (PDFs up to 500MB)
+model Resource {
+  id          String   @id @default(cuid())
+  fileName    String
+  fileType    String   // e.g. "application/pdf"
+  fileSize    Int      // bytes
+  category    String   // "syllabus" | "sample-paper" | "answers" | "glossary" | "release-notes" | "other"
+  title       String
+  description String?
+  content     String   // extracted text content
+  pageCount   Int      @default(0)
+  status      String   @default("processed") // "processing" | "processed" | "failed"
+  uploadedAt  DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  topics Topic[]
+}
+
+// AI-generated study topics organized by syllabus category
+model Topic {
+  id            String   @id @default(cuid())
+  categoryId    String   // e.g. "1", "2" ... matches syllabus category number
+  categoryName  String   // e.g. "Digital products and services"
+  subTopicId    String   // e.g. "1.1", "2.1"
+  title         String
+  summary       String   // short summary
+  keyConcepts   String   // JSON array of key concepts
+  content       String   // full markdown explanation
+  bloomsLevel   Int      @default(2) // 2 or 3
+  syllabusRef   String?  // e.g. "1.1.1, 2.1, 2.2"
+  difficulty    String   @default("medium") // easy | medium | hard
+  visualPrompt  String?  // prompt used for image generation
+  imageUrl      String?  // generated visual representation (premium image)
+  videoUrl      String?  // generated short explainer video (5-10s)
+  videoPrompt   String?  // prompt used for video generation
+  order         Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  resourceId String?
+  resource   Resource? @relation(fields: [resourceId], references: [id])
+}
+
+// Question bank for practice exams
+model Question {
+  id             String   @id @default(cuid())
+  categoryId     String   // syllabus category 1-10
+  categoryName   String
+  questionText   String
+  questionType   String   // "standard" | "missing-word" | "list" | "negative"
+  options        String   // JSON array of 4 options
+  correctAnswer  Int      // index 0-3 of correct option
+  explanation    String   // why the correct answer is correct
+  rationales     String   // JSON: rationale per option
+  bloomsLevel    Int      @default(2)
+  difficulty     String   @default("medium")
+  scenarioContext String? // optional scenario text
+  sourceRef      String?  // reference to syllabus/source
+  createdAt      DateTime @default(now())
+}
+
+// Exam instance (practice or final)
+model Exam {
+  id          String   @id @default(cuid())
+  title       String
+  type        String   // "practice" | "final"
+  duration    Int      // minutes
+  totalMarks  Int      @default(40)
+  passMark    Int      @default(28)
+  questionIds String   // JSON array of question IDs
+  questionCount Int    @default(40)
+  createdAt   DateTime @default(now())
+
+  attempts ExamAttempt[]
+}
+
+// User's attempt at an exam
+model ExamAttempt {
+  id          String   @id @default(cuid())
+  examId      String
+  exam        Exam     @relation(fields: [examId], references: [id])
+  answers     String   // JSON: { questionId: selectedIndex }
+  score       Int      @default(0)
+  totalMarks  Int      @default(40)
+  percentage  Float    @default(0)
+  passed      Boolean  @default(false)
+  timeSpent   Int      @default(0) // seconds
+  startedAt   DateTime @default(now())
+  completedAt DateTime?
+  status      String   @default("in-progress") // "in-progress" | "completed"
+  categoryBreakdown String? // JSON: { categoryId: { correct, total } }
+  weakAreas   String?  // JSON array of weak category IDs
+  createdAt   DateTime @default(now())
+}
+
+// Readiness assessment
+model Readiness {
+  id              String   @id @default(cuid())
+  totalAttempts   Int      @default(0)
+  passedAttempts  Int      @default(0)
+  averageScore    Float    @default(0)
+  bestScore       Float    @default(0)
+  recentScores    String   // JSON array of recent percentages
+  categoryMastery String   // JSON: { categoryId: { attempts, correct, mastery } }
+  ready           Boolean  @default(false)
+  recommendation  String
+  updatedAt       DateTime @updatedAt
+}

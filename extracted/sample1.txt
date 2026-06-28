@@ -1,0 +1,495 @@
+                                                                         Unlock
+                                                                   exclusive benefits
+
+
+
+ITIL
+                                                                  with PeopleCert Plus!
+            ®
+                                                                     Join Now!
+
+
+Product               VERSION 5
+
+
+
+
+Global Best Practice
+        For all organizations and people aiming
+        to create excellent digital products!
+
+
+
+
+Sample
+Paper 1
+Questions
+
+
+
+
+                                            Official Training Materials
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 5.0 (March 2026)
+
+Copyright © 2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by
+PeopleCert. Information identified as being under a Creative Commons license may be used in accordance with that license. ITIL®, PRINCE2®,
+DEVOPS INSTITUTE ®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this
+publication, no representation or warranty (either express or implied) is given by PeopleCert with respect to the completeness, accuracy or suitability of
+the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage whatsoever relating to such
+information or advice.
+
+
+
+
+2     ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+Instructions
+1. You should attempt all 40 multiple choice questions (MCQs).
+   Each question is worth one mark.
+2. There is only one correct answer per question.
+3. You need to answer 28 questions correctly to pass the exam.
+4. You have 90 minutes to complete this exam.
+5. This is an 'open book' exam. You can use the ITIL Product (Version 5) Official Book.
+6. Use the Scenario Booklet ITIL Car Rental (ICR) Scenario for additional context.
+7. No materials are allowed other than the exam paper, the ITIL Product (Version 5) Official
+   Book, and the Scenario Booklet.
+8. Do not use information from one question to answer another.
+
+
+
+
+                                     ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   3
+1.         Which output BEST reflects the purpose of the ITIL Product and Service Lifecycle?
+           A. To define a fixed sequence of activities that should be followed for all products
+           B. To separate product management activities from service management activities
+           C. To support the holistic management of products and services across shared lifecycle
+              management activities
+           D. To describe how services are transitioned and operated after products are built
+
+2.         Which statement BEST reflects the conceptual difference between a digital product and a
+           digital service?
+           A. A digital product provides capabilities, while a digital service enables value realization
+              through use of those capabilities
+           B. A digital product delivers value directly to the customer, while a digital service
+              supports internal operations
+           C. A digital product defines customer outcomes, while a digital service defines technical
+              resources of the digital product vendor
+           D. A digital product and a digital service are alternative terms for the same concept
+
+3.         How do an organization’s value chain activities support the ITIL Product and Service
+           Lifecycle?
+           A. By defining the governance structures that control product and service decisions
+           B. By enabling the performance of lifecycle management activities that create and deliver
+              value
+           C. By aligning lifecycle stages directly with operational process execution
+           D. By sequencing product and service activities into a fixed, linear process
+
+4.         Which of the following BEST describes the focus of the ‘discover’ activity within the
+           product and service lifecycle?
+           A. It is performed only once at the beginning of a product’s lifecycle
+           B. It focuses exclusively on organizational and portfolio-level analysis
+           C. It replaces ‘design’ and ‘build’ activities by validating solutions early
+           D. It is performed iteratively at product level to inform roadmaps, backlogs, and
+              improvement initiatives
+
+5.         Which of the following BEST describes the focus of the ‘design’ activity when viewed
+           across the product and service lifecycle?
+           A. It defines customer needs and prioritizing opportunities
+           B. It applies to products, not to related service interactions
+           C. It includes creating solutions so they can be built, operated, delivered, and supported
+              effectively
+           D. It includes defining implementation tasks so solutions can be developed, deployed,
+              and monitored effectively
+
+
+
+
+4    ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+6.    A product team has approved a new feature that requires additional cloud capacity and
+      specialist skills.
+      Which action BEST reflects the CORRECT application of the ‘acquire’ activity?
+      A. Updating the product backlog to reflect the new feature
+      B. Securing and allocating the required resources to enable implementation
+      C. Designing the technical solution to use the new capacity efficiently
+      D. Deploying and configuring the feature in the live environment for use
+
+7.    Which statement BEST explains how the product and service portfolio informs the
+      ‘discover’ activity?
+      A. The portfolio provides context that influences prioritization and alignment during
+         discovery
+      B. The portfolio fully defines product requirements before discovery activities begin
+      C. The portfolio is produced only after discovery activities are completed
+      D. The portfolio restricts discovery work to existing approved products
+
+8.    Which output is MOST closely associated with the completion of a ‘discover’ activity
+      iteration?
+      A. Deployed product features and updated service catalogue entries
+      B. Tested solution components and technical documentation
+      C. Operational performance reports and incident trends
+      D. Updated product roadmap and refined backlog items
+
+9.    Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      At the start of ‘discover’ for ICR’s Unified Mobile App, Maria gathers information about
+      regulatory differences between countries, customer expectations across rental, car
+      sharing, and autonomous services, and competitive pressure from ride-sharing
+      platforms.
+      Which action BEST demonstrates CORRECT application of the step ‘assess the product
+      context’ before proceeding further in ‘discover’?
+      A. Synthesizing this information to understand constraints, drivers, and opportunities
+         shaping the product
+      B. Converting the information into detailed solution designs for the mobile application
+      C. Using the information to select platforms, tools, and technology services
+      D. Applying the information to plan rollout strategies for various markets
+
+10.   Which metric BEST demonstrates that the ‘discover’ activity is effectively enabling value
+      creation?
+      A. Number of successfully deployed releases per quarter
+      B. Mean time to restore service after incidents
+      C. Percentage of automated test coverage achieved
+      D. Strategic alignment and commercial viability of products
+
+
+
+
+                                        ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   5
+11.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            During ‘discover’ for ICR’s Unified Mobile App, the team is under significant time pressure
+            to move quickly into ‘design’. Maria is concerned that assumptions about customer needs
+            may be incomplete.
+            Which action BEST reflects a practical recommendation for effective discovery under time
+            constraints?
+            A. Finalize the initial direction to avoid further delays
+            B. Document assumptions and validate them during later lifecycle stages
+            C. Rapidly test and challenge assumptions using evidence from real users
+            D. Prioritize delivery speed over further discovery activities and move to design
+
+12.         A product team is redesigning a customer-facing digital service and wants to follow a
+            human-centred design approach.
+            Which action BEST demonstrates CORRECT application of human-centred design
+            principles?
+            A. Selecting a proven technical solution to reduce design effort and minimize the
+               iterations
+            B. Observing users in their real context and iteratively refining prototypes based on
+               feedback
+            C. Defining a complete set of requirements before starting design
+            D. Reusing existing interface designs to ensure consistency across products
+
+13.         Which output is MOST closely associated with the completion of the ‘design’ activity?
+            A. Integrated and tested product components
+            B. Deployed services available for customer use
+            C. Operational performance reports and incident trends
+            D. Design specifications and prototypes for products
+
+14.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            Alex is concerned that the Unified Mobile App must support three different service
+            models while sharing core capabilities such as payment and authentication.
+            Which action BEST demonstrates CORRECT application of the ‘design’ activity?
+            A. Defining monitoring thresholds for live environments
+            B. Prioritizing features based on market demand
+            C. Creating target architecture blueprints for shared and independent components
+            D. Planning phased releases to reduce transition risk
+
+15.         A design team consistently produces solutions that require significant rework during
+            ‘build’ and ‘transition’.
+            Which improvement action BEST addresses a critical success factor of the ‘design’ activity?
+            A. Strengthening collaboration between designers, architects, and downstream lifecycle
+               teams
+            B. Increasing the frequency of deployments to gather operational feedback
+            C. Increasing automation across build and test activities to improve delivery efficiency
+            D. Expanding analysis of live service incidents to identify operational improvement needs
+
+
+
+
+6     ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+16.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      While designing a Unified Mobile App that supports rental, car sharing, and autonomous
+      ride options, the team faces pressure to finalize designs quickly.
+      Which action BEST applies a practical recommendation for effective design in this
+      situation?
+      A. Iteratively validating design decisions with users and stakeholders before finalizing
+         them
+      B. Freezing the design early to reduce rework during build
+      C. Handing design decisions to technical teams to accelerate delivery
+      D. Limiting design input to documented requirements only
+
+17.   Which management practice PRIMARILY ensures that service quality is defined,
+      monitored, and reported during the ‘deliver’ activity?
+      A. Service request management
+      B. Knowledge management
+      C. Service level management
+      D. Monitoring and event management
+
+18.   An organization has completed the ‘acquire’ activity for a new digital product.
+      Which outcome BEST indicates that the activity has been successfully completed?
+      A. Approved solution designs and architectural models
+      B. Fully integrated and tested product components
+      C. Deployed services available to customers
+      D. Allocated resources and agreements ready to support build and operation
+
+19.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      While preparing to acquire cloud infrastructure, AI services, and payment capabilities for
+      a Unified Mobile App, the organization identifies multiple sourcing options: internal
+      platforms, single external vendors, or a mix of specialized suppliers.
+      To correctly apply the ‘assess sourcing options’ step of the ‘acquire’ activity, which analysis
+      should be performed FIRST?
+      A. Compare deployment timelines to determine which option enables the fastest go-live
+      B. Select the least expensive sourcing option to reduce overall product cost
+      C. Evaluate sourcing options against functional needs, scalability, regulatory constraints,
+         and long-term integration impact
+      D. Choose the sourcing option preferred by the majority of delivery teams
+
+20.   A product team experiences repeated delays due to unavailable tools and external
+      services.
+      Which action BEST addresses a critical success factor of the ‘acquire’ activity?
+      A. Increasing automation so build and test activities complete more efficiently
+      B. Accelerating approvals so releases can move into production faster
+      C. Improving coordination so resources and suppliers are secured in line with product
+         timelines
+      D. Expanding operational support so incidents can be resolved more quickly
+
+
+
+
+                                         ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   7
+21.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            The organization plans to acquire external payment services that must comply with
+            different regulations across regions.
+            Which action BEST reflects a practical recommendation for effective acquisition?
+            A. Standardizing on a single provider regardless of regional differences
+            B. Analysing regulatory, compliance, and integration requirements before finalizing
+               sourcing decisions
+            C. Allowing regional teams to independently contract local providers as it enables
+               maximum control
+            D. Addressing compliance concerns after services are live
+
+22.         Which statement BEST describes the relationship between ‘design’ and ‘build’ activities in
+            an integrated product lifecycle?
+            A. ‘Build’ activities are independent of ‘design’ once development starts
+            B. ‘Design’ activities are performed only to support early planning decisions
+            C. ‘Build’ activities focus on validating user needs identified during design
+            D. ‘Design’ and ’build’ activities are closely coordinated to ensure solutions can be
+               developed effectively
+
+23.         Which output is MOST closely associated with the completion of the ‘build’ activity?
+            A. Approved design specifications and prototypes
+            B. Contracted services and allocated supplier resources
+            C. Operational performance reports and incident data
+            D. Integrated and tested product components ready for transition
+
+24.         Please refer to the ITIL Car Rental scenario for additional context when answering this
+            question.
+            After design specifications for the Unified Mobile App are approved, multiple teams are
+            ready to start development on shared and service-specific components.
+            Which action BEST applies the FIRST step of the ‘build’ activity before development
+            begins?
+            A. Structuring build work so components align with approved designs
+            B. Scheduling deployment windows to reduce business impact
+            C. Training support teams on expected user issues
+            D. Prioritizing features based on customer feedback
+
+25.         Why is close collaboration between roles considered a critical success factor for the ‘build’
+            activity?
+            A. It ensures faster approval of releases
+            B. It supports effective integration, testing, and resolution of issues during development
+            C. It enables prioritization of new product ideas
+            D. It improves customer communication during service delivery and operation
+
+
+
+
+8     ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+26.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      ICR is preparing to release a new version of its Unified Mobile App that enables
+      customers to unlock rental cars via their smartphones. Before activating the feature for
+      users, the product team reviews existing Service Level Agreements (SLAs) and current
+      onboarding procedures.
+      Which step of the ‘deliver’ activity is ICR PRIMARILY performing in this situation?
+      A. Assess service delivery commitments and available solutions
+      B. Identify and confirm delivery plan and resource availability
+      C. Execute delivery plans and report delivery status to stakeholders
+      D. Capture incidents and initiate service recovery actions
+
+27.   Which statement BEST describes a phased or incremental approach to product
+      transition?
+      A. All product features are released at the same time to minimize transition effort
+      B. A single, coordinated release where the new product replaces the old one
+      C. Functionality is released gradually to reduce risk and allow learning between releases
+      D. Transition activities are postponed until full operational stability is achieved
+
+28.   Which output is MOST closely associated with ensuring that a transitioned product can be
+      effectively used and supported?
+      A. Finalized design specifications and architecture models
+      B. Signed supplier contracts and allocated resources
+      C. Updated operational documentation and support readiness
+      D. Defect logs generated during development and testing
+
+29.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      During transition preparation for the Unified Mobile App, several teams disagree about
+      production configuration details and monitoring expectations.
+      Which action BEST applies the transition step that turns assessment outputs into
+      actionable preparation?
+      A. Check the live environment for security issues after the release
+      B. Conduct a post-transition debrief and add actions to the backlog
+      C. Produce a transition plan with owned tasks, dependencies, and confirmed resource
+         availability
+      D. Publish a transition results report with rollback counts and timestamps
+
+30.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      During the ‘transition’ activity, multiple external suppliers provide map services, payment
+      processing, and cloud infrastructure.
+      Which action BEST reflects a practical recommendation for ensuring an effective
+      transition?
+      A. Assume suppliers will adjust automatically once the product is live
+      B. Clearly onboard suppliers and confirm roles, responsibilities, and escalation paths
+      C. Limit supplier involvement to contract management only
+      D. Address supplier coordination only if issues occur after launch
+
+
+
+                                        ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   9
+31.       Which practice MOST directly enables the ‘operate’ activity by providing visibility into the
+          health and performance of live products and services?
+          A. Deployment management
+          B. Release management
+          C. Monitoring and event management
+          D. Business analysis
+
+32.       Which output is MOST closely associated with effective execution of the ‘operate’ activity?
+          A. Updated product roadmaps and prioritized backlogs
+          B. Signed supplier contracts and allocated human and technology resources
+          C. Design changes identified during prototyping
+          D. Operational data and service performance information
+
+33.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          During a daily health check, automated monitoring detects repeated authentication
+          errors affecting one service component.
+          Which action BEST applies to the third step of the ‘operate’ activity?
+          A. Ignore the issue unless it affects business-critical users and customers
+          B. Record the issue for discussion at the next planning meeting
+          C. Follow the runbook to investigate, fix the issue, and document the outcome
+          D. Disable the alert to reduce monitoring noise
+
+34.       Please refer to the ITIL Car Rental scenario for additional context when answering this
+          question.
+          The operations team plans to introduce AI-based alert correlation to manage the growing
+          volume of monitoring data. However, alerts are inconsistent, poorly structured, and often
+          duplicated.
+          Which decision BEST reflects the recommended operational approach?
+          A. Deploy the AI tool immediately to reduce human effort
+          B. Increase alert thresholds to reduce noise
+          C. First improve data structure, observability modelling, and event hygiene
+          D. Replace existing monitoring tools with a new AI-enabled platform
+
+35.       Which practice MOST directly enables the ‘support’ activity by ensuring that user issues
+          and queries are handled effectively?
+          A. Service desk
+          B. Service level management
+          C. Release management
+          D. Problem management
+
+36.       Which output BEST reflects the contribution of the ‘support’ activity to the digital product
+          lifecycle?
+          A. Stable service availability measured against agreed targets
+          B. Integrated and tested product components
+          C. Knowledge, data, and insights derived from user interactions and issues
+          D. Products and services released and ready for use
+
+
+
+
+10    ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+37.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      After resolving a major incident, metrics show recovery time was fast; however, similar
+      incidents have occurred previously.
+      Which action BEST applies the final step of the ‘support’ activity, ensuring long-term value
+      improvement?
+      A. Analyse the impact and urgency of the incident and update the ticket with this
+         information
+      B. Focus the review on individual errors to prevent repetition
+      C. Reduce alert thresholds to detect future issues earlier
+      D. Conduct a data-driven review and log systemic improvements
+
+38.   Please refer to the ITIL Car Rental scenario for additional context when answering this
+      question.
+      A payment processing outage affects users in one market. The support team restores
+      service quickly and offers alternatives during the disruption.
+      Which action BEST applies a practical recommendation for effective support in this
+      situation?
+      A. Delay customer communication until the root cause is fully understood
+      B. Engage users during the incident and restore service using agreed response practices
+      C. Escalate the issue to product design before restoring service
+      D. Focus only on internal resolution without user-facing updates
+
+39.   Which option BEST reflects a success factor that supports effective product management?
+      A. Detailed operational procedures for incident handling
+      B. Continuous collaboration between product, service, and other stakeholder roles
+      C. Comprehensive performance reporting for all products and services
+      D. Formal approval of every product change through centralized governance
+
+40.   Organizations adopt different business and operating models.
+      How should value streams integrate lifecycle management activities to effectively support
+      these different models?
+      A. By ensuring every value stream includes all stages of the product and service lifecycle
+      B. By adapting the scope of lifecycle management activities included based on how value
+         and consumers are defined
+      C. By standardizing lifecycle integration so that value streams remain identical across
+         organizations
+      D. By prioritizing internal efficiency over alignment with the organization’s business
+         model
+
+
+
+
+                                       ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   11
+Notes
+
+
+
+
+12   ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+Notes
+
+
+
+
+        ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited   13
+Notes
+
+
+
+
+14   ITIL® Product | Sample Paper 1 | Copyright © PeopleCert International Limited
+Thank you
+for completing this course!
+Please take a few minutes to give us your feedback on your
+experiences and learning from the course by completing
+the online course evaluation survey here.
+
+
+
+
+                                    PeopleCert has been accredited by Lloyd’s Register,
+                                    UK (now LRQA), in accordance with ISO 14001 for
+    ESG                             Environmental Management since 2006. Recognized
+    Commitment                      through numerous awards, we remain committed to
+                                    ESG leadership and the preservation of our planet.
+

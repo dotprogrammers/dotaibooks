@@ -1,0 +1,297 @@
+                                                                       Unlock
+                                                                 exclusive benefits
+
+
+
+ITIL (Version 5)
+                                                                with PeopleCert Plus!
+        ®
+                                                                   Join Now!
+
+
+Release Notes
+Global Best Practice
+    ITIL builds on its strong IT Service Management heritage,
+    expanding into Digital Product and Service Management –
+    for every role and every organization. For all.
+
+
+
+
+                                        Official Training Materials
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 5.0 (February 2026)
+
+Copyright © 2022-2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by
+PeopleCert. Information identified as being under a Creative Commons license may be used in accordance with that license. ITIL®, PRINCE2®,
+DEVOPS INSTITUTE ®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this
+publication, no representation or warranty (either express or implied) is given by PeopleCert with respect to the completeness, accuracy or suitability of
+the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage whatsoever relating to such
+information or advice.
+
+
+
+
+2     ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited
+Scope
+• This document aims to help you understand the key changes from ITIL 4 to the new ITIL
+  (Version 5).
+
+
+
+Introduction to ITIL (Version 5)
+• ITIL has a strong global brand, adopted and adapted by organizations and professionals
+  worldwide, thanks to the continuous involvement, active engagement, and co-creation with our
+  community.
+
+• While we recognize that parts of the ecosystem may remain aligned to earlier ITIL versions, this
+  continued adoption is a testament to the stickiness of the ITIL brand.
+
+• ITIL (Version 5) provides a new opportunity to further expand ITIL’s global reach and demonstrate
+  how it can truly empower organizations and people to lead transformation with confidence.
+
+• ITIL has consistently been the Global Best Practice Framework across its successive focus
+  areas, evolving from IT Service Management (ITSM) to Service Management (SM) and Digital
+  Transformation. While ITSM and SM (including Enterprise SM) remain our long-established
+  leading areas, we are expanding the ITIL scope and positioning as the Global Best
+  Practice framework for Digital Product and Service Management in the AI-driven world.
+
+• Digital Product and Service Management: In today’s AI-driven world, all products and services
+  are influenced by digital technologies, either directly or indirectly. The term ‘digital products
+  and services’ captures the full spectrum of digital relevance; from traditionally non-digital
+  products enabled or supported by digital technology during their lifecycle (e.g. a pen designed
+  or produced using digital technologies), to technology-enabled products (e.g. a smartphone
+  enabled by its operating system and installed applications), and further to products that
+  are fully digital by nature (e.g. software). Digital services are delivered through, and are
+  fundamentally dependent on, these digital products. As such, digital products and services
+  must be approached holistically. The new ITIL unifies how organisations design, manage,
+  and continuously improve digital products and services – enabling superior experiences,
+  coherent strategies, and growth.
+
+• Fundamental ITIL concepts and principles remain the same, slightly adjusted or simply
+  repositioned in this new context.
+
+• A relevant example is the positioning of the ITIL Management Practices. All 34 ITIL
+  Management Practices remain unchanged and continue to sit at the core of the ITIL framework as
+  essential value enablers. However, in the new ITIL Foundation, the focus has shifted away from
+  memorizing knowledge related to individual practices towards understanding their
+  purpose, structure, benefits, and their role within the ITIL Value System – empowering
+  organizations and professionals to use them confidently from day one to drive growth.
+
+
+
+
+                                         ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited   3
+What’s new in ITIL (Version 5)
+ITIL 4 and ITIL (Version 5) | Key ITIL Concepts
+The concepts in this table are presented in the same order as they appear in the Official Book.
+
+ Key ITIL Concepts                  ITIL 4                              ITIL (Version 5)              Comment
+ Scope of the ITIL                  IT Service Management               ITSM and Service              From IT Service
+ framework                          (management of                      Management, expanded          Management, to Service
+                                    the full lifecycle of IT            to include Digital Product    Management (including
+                                    services) and Digital               and Service Management,       Enterprise Service
+                                    Transformation.                     covering the full lifecycle   Management), expanded
+                                                                        of digital products and       to include Digital Product
+                                                                        services.                     and Service Management.
+ Products and services              Definitions of products and services: products provide N/A
+                                    capabilities, services enable value co-creation based
+                                    on these capabilities.
+ Digital products and               N/A                                 Specific definitions          The term ‘digital products
+ services                                                               derived from the product      and services’ captures
+                                                                        and service definitions.      the full spectrum of
+                                                                                                      digital relevance; from
+                                                                                                      traditionally non-
+                                                                                                      digital products
+                                                                                                      enabled or supported by
+                                                                                                      digital technology during
+                                                                                                      their lifecycle (e.g. a pen
+                                                                                                      designed or produced
+                                                                                                      using digital technologies),
+                                                                                                      to technology-enabled
+                                                                                                      products (e.g. a
+                                                                                                      smartphone enabled by
+                                                                                                      its operating system and
+                                                                                                      installed applications),
+                                                                                                      and further to products
+                                                                                                      that are fully digital by
+                                                                                                      nature (e.g. software).
+ Key roles in value                 Service providers and               Product vendors, service      The roles of product
+ co-creation                        service consumers.                  providers, service            vendor and service
+                                                                        consumers.                    provider can be played
+                                                                                                      by one organization or by
+                                                                                                      different organizations.
+ Service consumer roles             Sponsor, Customer, User.                                          N/A
+ Service quality                    Utility, warranty,                  Utility, warranty,            Sustainability is added
+ and service level                  experience.                         experience, sustainability.   as a key characteristic of
+ characteristics                                                                                      service quality.
+ Service interactions               Access to resources, transfer of goods, service                   No changes; the key role
+                                    actions.                                                          of access to resources
+                                                                                                      for digital services is
+                                                                                                      emphasized.
+ Types of service                   Basic, cooperative, collaborative (partnership).                  N/A
+ relationships
+ Governance                         Evaluate – direct –                 Evaluate – direct –           The description is
+                                    monitor.                            monitor – engage              updated to reflect ISO/IEC
+                                                                        stakeholders.                 38500:2024 – Information
+                                                                                                      technology – Governance
+                                                                                                      of IT for the organization.
+
+
+
+
+4   ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited
+ Key ITIL Concepts          ITIL 4                            ITIL (Version 5)                    Comment
+ ITIL Four Dimensions       The ITIL four                     The ITIL Four dimensions            Reviewed descriptions.
+                            dimensions of service             of Product and Service              The ITIL AI Capability
+                            management; external              Management; external                Model is added to
+                            PESTLE factors.                   PESTLE factors.                     the ‘Information and
+                                                                                                  Technology’ dimension.
+ ITIL Guiding Principles    Seven Guiding Principles.                                             Descriptions are clarified;
+                                                                                                  AI is added to the ‘how
+                                                                                                  to apply the principle’
+                                                                                                  sections.
+ ITIL Practices             34 practices grouped in           Same 34 practices                   The 34 ITIL Official
+                            three groups: general,            grouped in two groups:              Practice Guides are
+                            service, and technical.           general, and ‘product               aligned with the new ITIL
+                                                              and service management              (available with PeopleCert
+                                                              practices’.                         Plus). Minor updates
+                                                                                                  expected. Integrated
+                                                                                                  across the new ITIL
+                                                                                                  Modules and learning
+                                                                                                  experience.
+ ITIL Value Streams         Basic definitions.                                                    Clarified definitions,
+                                                                                                  better link to the
+                                                                                                  value chain, value
+                                                                                                  stream mapping
+                                                                                                  recommendations in
+                                                                                                  Appendix E of the Official
+                                                                                                  Book.
+
+
+ITIL 4 and ITIL (Version 5) | Key ITIL Models
+The models in this table are presented in the same order as they appear in the Official Book.
+
+ Key ITIL Models            ITIL 4                            ITIL (Version 5)                    Comment
+ ITIL Product and           N/A                               The ITIL Product and                To manage digital
+ Service Lifecycle Model                                      Service Lifecycle Model             products and services
+                                                              unifies digital product             throughout their shared
+                                                              and service in one model.           lifecycle, organizations
+                                                              Lifecycle management                perform the lifecycle
+                                                              activities included:                management
+                                                                                                  activities.
+                                                              •   Discover
+                                                              •   Design                          These activities enable
+                                                              •   Acquire                         and support the lifecycle
+                                                              •   Build                           but are not performed
+                                                              •   Transition                      in a fixed sequence; this
+                                                              •   Operate                         varies depending on the
+                                                              •   Deliver                         product and service
+                                                              •   Support.                        architecture and
+                                                                                                  organizational context.
+                                                                                                  They are combined
+                                                                                                  according to the context
+                                                                                                  to form value chains.
+
+
+
+
+                                                 ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited   5
+Key ITIL Models                     ITIL 4                              ITIL (Version 5)             Comment
+Value Chain                         Service Value Chain is              A value chain is an          The activities are linked
+                                    at the centre of the ITIL           entire set of activities     to the ITIL Product and
+                                    Service Value System.               that enables value           Service Lifecycle Model
+                                    Activities included:                through the provision of     lifecycle management
+                                                                        a product or service.        activities and presented
+                                    •   Plan
+                                                                        Activities included (as in   as stepping stones, with
+                                    •   Engage
+                                                                        the ITIL Lifecycle Model):   all or some of them
+                                    •   Design & Transition
+                                                                                                     forming the organization’s
+                                    •   Obtain/Build                    •   Discover
+                                                                                                     value chain.
+                                    •   Deliver & Support               •   Design
+                                    •   Improve                         •   Acquire                  Each value chain
+                                                                        •   Build                    activity is described
+                                                                        •   Transition               in a uniform way and
+                                                                        •   Operate                  mapped to enabling and
+                                                                        •   Deliver                  supporting practices.
+                                                                        •   Support
+ITIL Value System                   ITIL Service Value                  ITIL Value System            No structural changes.
+                                    System components and               components and               Service value chain
+                                    positioning:                        positioning:                 is now value chain. It
+                                    1. Guiding Principles               1. ITIL Guiding Principles   strengthens the ITIL
+                                    2. Governance                       2. Governance                Value System with a
+                                    3. (Service) Value Chain            3. ITIL Value Chain          clearer modular value
+                                    4. Practices                        4. Management Practices      chain model.
+                                    5. Continual Improvement            5. The ITIL Continual
+                                                                           Improvement Model
+ITIL Continual                      7 steps:                            7 steps (updated):           Apart from the updated
+Improvement Model                   1. what is the vision               1. what is the vision        names of the steps, all
+                                    2. where are we now                 2. where are we now          steps are described
+                                    3. where do we want                 3. where do we want          from both ‘clear’ and
+                                       to be                               to be                     ‘discovery’ perspectives
+                                    4. how do we get there              4. how do we get there       stressing the importance
+                                    5. take action                      5. take action               of experimentation when
+                                    6. did we get there                 6. are we getting there      the destination and/or
+                                    7. how do we keep the               7. how do we keep            steps are not clear.
+                                       momentum going                      the improvements
+                                                                           relevant
+ITIL Service Journey                The ITIL Service Journey Model describes the steps               Brief explanation of the
+Model                               of the service journey and the key tasks of the service          journey shared by service
+                                    consumer and service provider.                                   providers and service
+                                                                                                     consumers.
+ITIL AI Capability                  N/A                                 New. Describes AI’s key      -
+Model                                                                   functional capabilities.
+
+
+
+
+6   ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited
+Notes
+
+
+
+
+        ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited   7
+Notes
+
+
+
+
+8   ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited
+Notes
+
+
+
+
+        ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited   9
+Notes
+
+
+
+
+10   ITIL® (Version 5) | Release Notes | Copyright © PeopleCert International Limited
+             Discover more
+
+
+
+                 itil.com
+
+
+
+
+                PeopleCert has been accredited by Lloyd’s Register,
+                UK (now LRQA), in accordance with ISO 14001 for
+ESG             Environmental Management since 2006. Recognized
+Commitment      through numerous awards, we remain committed to
+                ESG leadership and the preservation of our planet.
+
