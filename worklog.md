@@ -107,3 +107,31 @@ Stage Summary:
 - Membership plans + checkout flow
 - Lint: clean (0 errors)
 - Exam flow verified: 40-question weighted random exams, timer, scoring, explanations, readiness tracking
+
+---
+Task ID: 4
+Agent: Main Agent
+Task: Add transparent-background premium images, premium fonts, premium gradient/parallax animations, and role-based demo credentials with copy/apply on login
+
+Work Log:
+- Reset 3 demo user passwords to Demo@2025 (superadmin/admin/member @dotaibooks.com)
+- Verified premium fonts already in layout: Sora (display) + Inter (body) via next/font
+- Verified premium CSS animations in globals.css: gradient-shift, float, glow-pulse, shimmer, slide-up, scale-in, gradient-text, glass morphism, card-lift, mesh-bg, parallax, image-frame (checkerboard for transparency)
+- Verified parallax hooks (useParallax, useInView) in src/hooks/use-parallax.ts
+- Verified landing page uses parallax hero (mesh-bg, floating orbs, parallax dot grid), animated gradient text, staggered reveal animations, card-lift hovers, wave divider
+- Built removeBackground() utility using sharp: samples corner pixels, computes Euclidean distance, hard threshold (30) + feather threshold (80) for anti-aliased edges, outputs PNG with alpha
+- Built generateTransparentImage(): generates flat vector illustration on white bg, then removes background via sharp
+- Wrote regen-transparent.ts script to regenerate all topic images with transparent backgrounds
+- Updated topic detail page: transparent images display in image-frame (checkerboard) with drop-shadow and scale-in animation
+- Verified login form: 3 demo credential rows (Super Admin/Admin/Member) with gradient color bars, Apply (auto-fills email+password) and Copy (clipboard with toast) buttons
+
+Stage Summary:
+- Transparent images: verified hasAlpha=true, 4 channels; regenerating all 26 topics in background
+- Demo credentials: all 3 roles work with Demo@2025 (verified Super Admin login end-to-end)
+- Copy button: verified changes to "Copied" + toast notification
+- Apply button: verified auto-fills email (superadmin@dotaibooks.com) + password (Demo@2025)
+- Premium fonts: Sora + Inter active via CSS variables (--font-display, --font-body)
+- Premium animations: gradient-shift, float, glow, shimmer, parallax, reveal all active on landing
+- Gradient colors: gradient-text (teal→cyan→violet), mesh-bg (multi-radial), animated gradient hero text
+- Parallax: hero dot grid moves with scroll via useParallax(0.15)
+- Lint: clean (0 errors)

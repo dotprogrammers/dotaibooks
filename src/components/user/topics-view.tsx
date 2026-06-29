@@ -120,8 +120,12 @@ function TopicDetail({ topic, cert, onBack }: { topic: Topic; cert: Cert | null;
       )}
       {topic.imageUrl && !topic.videoUrl && (
         <Card className="overflow-hidden border-teal-200 shadow-md">
-          <CardHeader className="pb-2 bg-gradient-to-r from-teal-50 to-emerald-50"><CardTitle className="flex items-center gap-2 text-sm"><ImageIcon className="h-4 w-4 text-teal-600" /> Visual Memory Aid</CardTitle></CardHeader>
-          <CardContent className="p-0"><img src={topic.imageUrl} alt={topic.title} className="w-full" /></CardContent>
+          <CardHeader className="pb-2 bg-gradient-to-r from-teal-50 to-emerald-50"><CardTitle className="flex items-center gap-2 text-sm"><ImageIcon className="h-4 w-4 text-teal-600" /> Visual Memory Aid</CardTitle><CardDescription className="text-xs">Transparent AI-generated illustration — adapts to light/dark mode</CardDescription></CardHeader>
+          <CardContent className="p-0">
+            <div className="image-frame w-full flex items-center justify-center p-4 sm:p-8">
+              <img src={topic.imageUrl} alt={topic.title} className="w-full max-w-2xl mx-auto drop-shadow-2xl animate-scale-in" />
+            </div>
+          </CardContent>
         </Card>
       )}
       {topic.keyConcepts.length > 0 && (
