@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
         role,
       },
     })
-    const token = createSession(user.id)
+    const token = await createSession(user.id)
     const res = NextResponse.json({
       user: { id: user.id, email: user.email, name: user.name, role: user.role, avatar: user.avatar },
     })

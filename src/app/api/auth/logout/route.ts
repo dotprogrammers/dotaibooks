@@ -6,7 +6,7 @@ export const runtime = 'nodejs'
 
 export async function POST(req: Request) {
   const token = getSessionToken(req.headers.get('cookie'))
-  destroySession(token)
+  await destroySession(token)
   const res = NextResponse.json({ success: true })
   res.cookies.delete(SESSION_COOKIE_NAME)
   return res

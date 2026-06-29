@@ -10,45 +10,45 @@ export interface SessionUser {
 }
 
 const SESSION_COOKIE = 'dota_session'
-const SESSIONS = new Map<string, { userId: string; expires: number }>()
+const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7 // 7 days
 
-// Simple in-memory session store (persists for the dev server lifetime)
-export function createSession(userId: string): string {
+/**
+ * Create a DB-backed session that survives server restarts.
+ */
+export async function createSession(userId: string): Promise<string> {
   const token = randomBytes(32).toString('hex')
-  SESSIONS.set(token, { userId, expires: Date.now() + 1000 * 60 * 60 * 24 * 7 }) // 7 days
+  const expiresAt = new Date(Date.now() + SESSION_TTL_MS)
+  await db.session.create({ data: { token, userId, expiresAt } })
   return token
 }
 
-export function getSession(token: string | undefined): SessionUser | null {
-  if (!token) return null
-  const session = SESSIONS.get(token)
-  if (!session) return null
-  if (session.expires < Date.now()) {
-    SESSIONS.delete(token)
-    return null
-  }
-  // We can't call async db here synchronously; callers should use getUserFromToken
-  return null as unknown as SessionUser
-}
-
+/**
+ * Look up a session by token in the database and return the associated user.
+ * Expired sessions are deleted on read.
+ */
 export async function getUserFromToken(token: string | undefined): Promise<SessionUser | null> {
   if (!token) return null
-  const session = SESSIONS.get(token)
+  const session = await db.session.findUnique({
+    where: { token },
+    include: { user: { select: { id: true, email: true, name: true, role: true, avatar: true, isActive: true } } },
+  })
   if (!session) return null
-  if (session.expires < Date.now()) {
-    SESSIONS.delete(token)
+  // Check expiry
+  if (session.expiresAt < new Date()) {
+    await db.session.delete({ where: { id: session.id } }).catch(() => {})
     return null
   }
-  const user = await db.user.findUnique({
-    where: { id: session.userId },
-    select: { id: true, email: true, name: true, role: true, avatar: true, isActive: true },
-  })
-  if (!user || !user.isActive) return null
-  return user
+  if (!session.user || !session.user.isActive) return null
+  return session.user
 }
 
-export function destroySession(token: string | undefined) {
-  if (token) SESSIONS.delete(token)
+/**
+ * Delete a session by token (logout).
+ */
+export async function destroySession(token: string | undefined): Promise<void> {
+  if (token) {
+    await db.session.deleteMany({ where: { token } }).catch(() => {})
+  }
 }
 
 export const SESSION_COOKIE_NAME = SESSION_COOKIE
