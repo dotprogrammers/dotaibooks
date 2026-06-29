@@ -1,0 +1,684 @@
+                                                                                                            Unlock
+                                                                                                      exclusive benefits
+
+
+
+DevOps
+                                                                                                     with PeopleCert Plus!
+
+                                                                                                          Join Now!
+
+
+Leader               VERSION 2
+
+
+
+
+Global Best Practice
+For leaders and professionals ready to drive culture,
+transformation, and business value with DevOps!
+
+
+
+
+Syllabus
+
+
+
+
+                                                  Official Training Materials
+
+
+
+
+                                           DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   1
+Published by PeopleCert International Limited
+Published in Cyprus
+Publication printed in Greece or reproduced electronically in Greece
+
+Version 2.2.1 ( June 2026)
+
+Copyright © 2026 PeopleCert International Limited and its affiliates (“PeopleCert”)
+All rights reserved. No part of this document or the information in it may be copied, distributed, disclosed or used other than as authorized by PeopleCert. Information identified as being under a Creative
+Commons license may be used in accordance with that license. ITIL®, PRINCE2®, DEVOPS INSTITUTE®, LANGUAGECERT®, and the Swirl logo are registered trademarks of PeopleCert.
+
+Disclaimer
+This publication is designed to provide helpful information to the recipient. Although care has been taken by PeopleCert in preparation of this publication, no representation or warranty (either express or
+implied) is given by PeopleCert with respect to the completeness, accuracy, or suitability of the information or advice contained within it, and PeopleCert shall not be held responsible for any loss or damage
+whatsoever relating to such information or advice.
+
+
+
+
+2     DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+1. Introduction
+The purpose of the DevOps Leader® certification and its associated course is to impart, test, and
+validate knowledge of DevOps basic vocabulary, principles, practices, and values. The vocabulary
+terms, concepts, and practices are documented in the Official Training Materials provided to the
+learners. DevOps Leader® is intended for anyone involved in cultural transformations and
+organizational change including IT team leaders, managers, directors and business stakeholders,
+practitioners and change agents, tool providers and systems integrators and DevOps
+consultants.
+Although there are no formal prerequisites for the exam, PeopleCert highly recommends that
+candidates complete at least 16 contact hours (instruction and labs) as part of a formal, approved
+training course delivered by an Authorized Training Organization of PeopleCert to prepare
+candidates for the exam leading to the DevOps Leader® certification.
+The DevOps Leader® examination is accredited, managed and administered under the strict
+protocols and standards of PeopleCert.
+
+2. Exam overview
+Material allowed       Official Training      This is an ‘open book’ exam. Official Training Materials
+                       Material               can be used for study during the exam.
+Exam duration          60 minutes             Candidates taking the exam in a language that is not
+                                              their native or working language may be awarded 25%
+                                              extra time, that is 75 minutes in total.
+Number of marks        40 marks               There are 40 questions, each worth 1 mark. There is no
+                                              negative marking.
+Provisional pass       65%                    Candidates need to answer 26 questions correctly to
+mark                                          pass the exam
+Level of thinking      Bloom’s levels         ‘Bloom’s level’ describes the type of thinking needed to
+                       1 and 2                answer the question. For Bloom’s level 1 questions, you
+                                              need to recall information/knowledge about the
+                                              DevOps concepts and vocabulary terms. For Bloom’s 2
+                                              questions, you need to show understanding of these
+                                              concepts in context.
+Question types         Standard,              The questions are all ‘multiple choice’.
+                       Negative,              'Standard' questions have a stem and four answer
+                       Missing word(s),       options.
+                       and List               ‘Negative’ questions are ‘standard’ questions in which
+                                              the stem is negatively worded.
+                                              For the ‘missing word(s)’ questions, there is a sentence
+                                              with a word or more words missing and candidates
+                                              have to select the missing word from four options.
+                                              For the ‘list’ questions, there is a list of four statements,
+                                              and candidates have to select two correct statements
+                                              from the list.
+Delivery               Web-based              The exam is offered only as a computer/web-based
+                                              exam.
+Badge                  Online badge           DevOps Leader® Certified
+
+It is recommended that candidates complete the DevOps Leader® course from a PeopleCert
+Accredited Training Organization (ATO).
+
+
+
+
+                                           DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   3
+    3. Question Types
+    All questions are Objective Test Questions (OTQs), which present four options from which one
+    option is selected. Distractors (wrong answers) are options that candidates with incomplete
+    knowledge or skill would be likely to choose. These are generally plausible responses relating to
+    the syllabus area being examined. Question styles used within this type are: ‘Standard’, ‘Missing
+    word’, ‘List’ (2 correct items), and, exceptionally, ‘Negative’ standard OTQ.
+
+
+
+    Example ‘Standard’ OTQ:                                                   Example ‘Missing word’ OTQ
+    What does the ‘C’ stand for in CALMS?                                     Identify the missing word(s) in the following
+                                                                              sentence.
+    A.   Cooperation
+    B.   Collaboration                                                        According to Gartner, [?] is the most
+    C.   Culture                                                              common challenge for organizations
+    D.   Continuous Integration                                               adopting DevOps principles.
+                                                                              A.   People
+    Example ‘List’ OTQ:                                                       B.   Information
+    When putting the 1st Way into action, which                               C.   Process
+    TWO of the following should be INCLUDED?                                  D.   Technology
+    1.   Passing a known defect downstream
+    2.   Seeking an overview of the system                                    Example ‘Negative’ standard OTQ:
+    3.   Decreasing flow and adding constraints                               Which of the following is NOT a goal
+    4.   Allowing local optimization to cause                                 of DevOps?
+         global degradation
+                                                                              A. Improved productivity
+    A.   1 and 3                                                              B. Fewer but higher-quality software
+    B.   2 and 3                                                                 releases
+    C.   2 and 4                                                              C. Lower risk software deployments
+    D.   3 and 4                                                              D. Improved quality of code
+
+
+    NOTE: Two of the list items are correct. List                             NOTE: Negative questions are only used, as
+    style questions are never negative.                                       an exception, where part of the learning
+                                                                              outcome is to know that something is not
+                                                                              done or should not occur.
+
+
+    Please see the sample paper for an example of the exam format and content.
+
+
+
+
+4   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+4. Syllabus
+The DevOps Leader® exam requires knowledge of the topic areas described below.
+Note: The DevOps Leader® certification uses the Bloom Taxonomy of Educational Objectives in the
+construction of both the content and the examination.
+•     The DevOps Leader® exam contains Bloom 1 questions that test learners’ knowledge of
+      DevOps concepts and vocabulary terms (see list below)
+•     The exam also contains Bloom 2 questions that test learners’ comprehension of these
+      concepts in context
+
+    Category              Topic                                       Assessment Criteria                         BL
+    1. DevOps and         1.1 DevOps Core                  1.1.1      Identify key characteristics                 1
+       Transformational       Knowledge relevant                      of DevOps definitions
+       Leadership             for DevOps leaders           1.1.2      Name benefits of DevOps                      1
+                                                           1.1.3      Explain DevOps as a                          2
+                                                                      combination of cultural
+                                                                      philosophies, practices,
+                                                                      and tools that enable high-
+                                                                      velocity delivery of
+                                                                      applications and services
+                                                           1.1.4      Identify DORA metrics that                   1
+                                                                      demonstrate how DevOps
+                                                                      improves both throughput
+                                                                      and stability.
+                                                           1.1.5      Identify how AI adoption                     1
+                                                                      improves throughput and
+                                                                      stability
+                          1.2 Transformational             1.2.1      Identify factors that drive                  1
+                              leadership in                           the success of DevOps
+                              DevOps                       1.2.2      Identify the current state of                1
+                                                                      DevOps across various
+                                                                      industries
+                                                           1.2.3      Recall the key                               1
+                                                                      characteristics of a
+                                                                      transformational leader
+                                                           1.2.4      Identify tools useful for                    1
+                                                                      transformational leaders
+                                                           1.2.6      Describe how                                 2
+                                                                      transformational
+                                                                      leadership behaviours
+                                                                      impact DevOps
+                                                                      performance and culture
+                                                           1.2.7      Explain the Lean Strategic                   2
+                                                                      Change Canvas
+                          1.3 Purpose, soft skills         1.3.1      Explain Daneil Goleman's                     2
+                              and change tools                        six stype of leadership
+                                                           1.3.2      Define the Golden Circle                     1
+                                                                      (why–how–what) as a
+                                                                      model for purpose-driven
+                                                                      leadership
+
+
+
+
+                                       DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   5
+     Category                           Topic                                            Assessment Criteria            BL
+                                                                               1.3.3     Explain the Golden Circle      2
+                                                                                         (why–how–what) as a
+                                                                                         model for purpose-driven
+                                                                                         leadership
+                                                                               1.3.4     Explain how soft skills        2
+                                                                                         (communication, empathy,
+                                                                                         collaboration) contribute to
+                                                                                         DevOps leadership success
+                                                                               1.3.5     Describe the purpose of        2
+                                                                                         the Lean Strategic Change
+                                                                                         Canvas for planning and
+                                                                                         communicating change
+                                                                               1.3.6     Describe the Lean Strategic    2
+                                                                                         Change Canvas to outline a
+                                                                                         high-level DevOps
+                                                                                         transformation scenario
+     2. Unlearning                      2.1 Unlearning and                     2.1.1     Define unlearning and          1
+        Behaviours                          mindset                                      mindset in the context of
+                                                                                         DevOps change
+                                        2.2 Psychological                      2.2.1     Define psychological safety    1
+                                            safety, mental                     2.2.2     Define mental models           1
+                                            models, and                        2.2.3     Define cognitive bias in       1
+                                            cognitive bias                               business
+                                                                               2.2.4     Explain how neuroscience       2
+                                                                                         relates to learning
+
+                                        2.3 DevOps and                         2.3.1     Describe how Agile, ITSM       2
+                                            existing systems                             relate to the cadence of
+                                                                                         DevOps
+                                                                               2.3.2     Explain how DevOps             1
+                                                                                         supports governance, risk
+                                                                                         and compliance (GRC)
+                                                                               2.3.3     Explain characteristics of     2
+                                                                                         second generation Lean
+                                                                                         Product Development and
+                                                                                         Little's Law
+                                                                               2.3.4     Recall principles for          2
+                                                                                         Enterprise Architecture to
+                                                                                         suit DevOps
+                                                                               2.3.5     Explain how Flow               2
+                                                                                         engineering principles
+                                                                                         support DevOps
+                                                                               2.3.6     Know how different skill       1
+                                                                                         shapes support DevOps
+                                                                               2.3.7     Use a Bateson stakeholder      2
+                                                                                         map to identify key
+                                                                                         supporters and blockers
+                                                                                         for a DevOps change
+                                                                               2.3.5     Explain the “Training from     2
+                                                                                         the back of the room” four
+                                                                                         Cs
+
+
+6   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+Category               Topic                                       Assessment Criteria                         BL
+3. Becoming a DevOps   3.1 Where to start and           3.1.1      Identify attributes that do                  1
+   Organization            how DevOps differs                      and don't favor starting
+                                                                   DevOps transformations.
+                                                        3.1.2      Explain attributes that                      2
+                                                                   distinguish Traditional IT
+                                                                   differs from DevOps.
+                                                        3.1.3      Explain how DevOps favors                    2
+                                                                   small batch sizes compared
+                                                                   to traditional IT.
+                                                        3.1.4      Explain how DevOps favors                    2
+                                                                   autonomous teams
+                                                                   compared to traditional IT.
+                                                        3.1.5      Explain how DevOps favors                    2
+                                                                   decoupled schedules
+                                                                   compared to traditional IT.
+                                                        3.1.6      Explain how DevOps favors                    2
+                                                                   small, frequent releases,
+                                                                   compared to traditional IT.
+                                                        3.1.7      Explain how DevOps favors                    2
+                                                                   decision making using self-
+                                                                   generated data for
+                                                                   decisions compared to
+                                                                   traditional IT.
+                                                        3.1.8      Explain how DevOps favors                    2
+                                                                   decision learning from
+                                                                   failure, compared to
+                                                                   traditional IT.
+                                                        3.1.9      Explain how DevOps favors                    2
+                                                                   fast flow, compared to
+                                                                   traditional IT.
+                                                       3.1.10      Explain how DevOps favors                    2
+                                                                   focus on outcomes,
+                                                                   compared to traditional IT.
+                       3.2 MVP and customer             3.2.1      Identify steps to create a                   1
+                           focus                                   Minimum Viable Product
+                                                                   (MVP)
+                                                        3.2.2      Identify practices to put the                1
+                                                                   customer front and center
+                       3.3 DevOps Kaizen and            3.3.1      Explain how DevOps                           2
+                           safety                                  Kaizen improves DevOps
+                                                                   transformation.
+                                                        3.3.2      Explain how to build safety                  2
+                                                                   in Behaviours and Systems.
+                       3.4 Participation and            3.4.1      Define World cafe and                        1
+                           engagement                              Conversation Cafe
+                                                                   approaches to encourage
+                                                                   participation.
+                                                        3.4.2      Explain the role of “helping                 2
+                                                                   people participate” (eg
+                                                                   wicked questions,
+                                                                   Definition of Awesome
+
+
+                                    DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   7
+     Category                           Topic                                            Assessment Criteria            BL
+                                                                                         activity) in a DevOps
+                                                                                         transformation
+                                                                               3.4.3     Given a simple scenario,       2
+                                                                                         propose one “wicked
+                                                                                         question” that could unlock
+                                                                                         better engagement
+     4. Measuring to Learn              4.1 Value Stream                       4.1.1     Identify Value-Stream          1
+                                            Mapping (current                             Mapping process steps.
+                                            state)                             4.1.2     Identify activity steps is     1
+                                                                                         Step 1 of Value Stream
+                                                                                         Mapping.
+                                                                               4.1.3     Identify identification of     2
+                                                                                         cycle time for each activity
+                                                                                         is Step 2 of Value Stream
+                                                                                         Mapping.
+                                                                               4.1.4     Identify identification of     2
+                                                                                         wait time for each activity
+                                                                                         is Step 3 of Value Stream
+                                                                                         Mapping.
+                                                                               4.1.5     Identify how to calculate      2
+                                                                                         total cycle, wait and lead
+                                                                                         times is Step 4 of Value
+                                                                                         Stream Mapping.
+                                                                               4.1.5     Identify how to identify       2
+                                                                                         high-value activities and
+                                                                                         key constraints is Step 5 of
+                                                                                         Value Stream Mapping.
+                                                                               4.1.6     Identify how to add people     2
+                                                                                         and rework constraints is
+                                                                                         Step 6 of Value Stream
+                                                                                         Mapping.
+     5. Measure to                      5.1 Future-State Value                 5.1.1     Identify how the Three         1
+        Improve                             Stream Mapping                               Ways help design the
+                                                                                         future state Value Stream
+                                                                                         Map.
+                                                                               5.1.2     Define where to start          1
+                                                                                         future-State Value Stream
+                                                                                         Mapping
+                                                                               5.1.3     Explain the purpose of a       2
+                                                                                         future-state Value Stream
+                                                                                         Map in optimizing flow
+                                                                               5.1.4     Describe how constraints       2
+                                                                                         and non-value-added
+                                                                                         activities are removed in
+                                                                                         future-state design
+                                                                               5.1.5     Identify practices for         2
+                                                                                         facilitators of future state
+                                                                                         value stream mapping
+     6. Target Operating                6.1 Conway’s Law and                   6.1.1     Define Conway’s Law            1
+        Models and                          Communication                      6.1.2     Describe how                   2
+                                            Paths                                        communication structures
+
+
+8   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+Category                Topic                                       Assessment Criteria                         BL
+  Organizational                                                    influence architectural
+  Design                                                            outcomes
+                        6.2 DevOps Target                6.2.1      Define DevOps Target                         1
+                            Operating Model                         Operating Models (TOMs)
+                            (TOMs)                                  design principles and
+                                                                    practical outcomes
+                                                         6.2.2      Explain key DevOps TOM                       2
+                                                                    principles including
+                                                                    autonomy and reduced
+                                                                    dependencies
+                                                         6.2.3      Describe outcomes                            2
+                                                                    associated with effective
+                                                                    TOM design such as
+                                                                    reduced wait times
+                                                         6.2.4      Identify indicators of siloed                2
+                                                                    behaviour inconsistent
+                                                                    with TOM principles
+                        6.3 Agile and Ops                6.3.1      Identify attributes of                       1
+                            Integration                             centralized Ops teams to
+                                                                    support DevOps.
+                                                         6.3.2      Explain how Ops integrates                   2
+                                                                    with Agile teams through
+                                                                    shared ceremonies
+                        6.4 Agile Scaling                6.4.1      Identify different Agile                     2
+                            models                                  scaling methods for large
+                                                                    enterprises.
+                                                         6.4.2      Explain the difference                       2
+                                                                    between functional and
+                                                                    market-oriented teams,
+                                                         6.4.3      Explain shared principles                    2
+                                                                    between DevOps and SAFe
+                        6.5 Spotify team and             6.5.1      Identify Spotify Squad                       1
+                            culture                                 structure
+                                                         6.5.2      Identify Spotify Squad roles                 1
+                                                         6.5.3      Identify Spotify Tribe                       1
+                                                                    structure
+                                                         6.5.4      Identify Spotify Tribe roles                 1
+                                                         6.5.5      Identify Spotify Chapter                     1
+                                                                    structure
+                                                         6.5.6      Identify Spotify Chapter                     1
+                                                                    roles
+                                                         6.5.7      Define Spotify Guilds                        1
+                        6.6 Organization                 6.6.1      Identify the five color levels               1
+                            Culture Colors                          from Frederick Laloux's
+                                                                    book: "Reinventing
+                                                                    Organizations"
+                                                         6.6.2      Explain the characteristics                  2
+                                                                    of the Teal organization
+7. Articulating and     7.1 Organization                 7.1.1      Identify keys to launching                   1
+   Socializing Vision       change                                  transformation change in a
+
+
+
+                                     DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   9
+     Category                           Topic                                             Assessment Criteria            BL
+                                                                                          large firm according to
+                                                                                          Forbes.
+                                                                              7.1.2       Explain characteristics of     2
+                                                                                          evolution of incremental
+                                                                                          organization change
+                                                                              7.1.3       Identify characteristics of    2
+                                                                                          dysfunction team
+                                                                                          transformation
+                                                                              7.1.4       What questions can             2
+                                                                                          different teams ask to
+                                                                                          propagate DevOps
+                                                                                          thinking.
+                                        7.2 Performance                       7.2.1       Define performance             1
+                                            Management &                                  management and four
+                                            Beyond Budgeting                              stages of performance
+                                                                                          management for
+                                                                                          measuring DevOps
+                                                                                          progress.
+                                                                              7.2.2       Explain Beyond Budgeting       2
+                                                                                          principles supporting
+                                                                                          adaptive performance
+                                                                                          management
+                                        7.3 Empowering People                 7.3.1       Define empowerment in a        1
+                                                                                          DevOps context
+                                                                              7.3.2       Identify practice that         2
+                                                                                          empower people.
+                                        7.4 Wilber’s Quadrants                7.4.1       Explain Wilber’s Quadrants     2
+                                                                                          and their relevance in
+                                                                                          organizational change
+                                                                              7.4.2       Describe how quadrants         2
+                                                                                          represent individual and
+                                                                                          collective perspectives
+                                                                              7.4.3       Identify which quadrant is     2
+                                                                                          most relevant in a given
+                                                                                          example
+                                                                              7.4.4       Explain how balanced           2
+                                                                                          quadrant awareness
+                                                                                          supports change success
+                                        7.5 Karpman Drama                     7.5.1       Explain the Karpman            2
+                                            Triangle & TED                                Drama Triangle and
+                                                                                          common drama roles
+                                                                              7.5.2       Describe how the               2
+                                                                                          Empowerment Dynamic
+                                                                                          shifts roles to constructive
+                                                                                          alternatives
+                                                                              7.5.3       Identify drama-role            2
+                                                                                          behaviours in leadership
+                                                                                          scenarios
+                                                                              7.5.4       Explain how leaders            2
+                                                                                          support movement toward
+                                                                                          empowerment roles
+
+
+10   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+Category                Topic                                        Assessment Criteria                         BL
+                        7.6 Storytelling for             7.6.1       Define storytelling in a                     1
+                            Leadership                               DevOps context
+                                                         7.6.2       Explain why storytelling is                  2
+                                                                     an effective leadership tool
+                                                         7.6.3       Describe the structure of                    2
+                                                                     effective narratives
+                                                                     including conflict and
+                                                                     resolution
+                                                         7.6.4       Identify storytelling                        2
+                                                                     elements that increase
+                                                                     audience engagement
+                                                         7.6.5       Explain how stories                          2
+                                                                     support cultural alignment
+                                                                     and motivation
+                        7.7 Broadcasting                 7.7.1       Explain why leaders                          2
+                            Outside the                              broadcast successes and
+                            Organization                             failures publicly
+                                                         7.7.2       Describe how external                        2
+                                                                     communication promotes
+                                                                     learning and credibility
+                                                         7.7.3       Identify opportunities to                    2
+                                                                     share organizational
+                                                                     stories externally
+                                                         7.7.4       Explain characteristics of                   2
+                                                                     effective public
+                                                                     communication
+8. Maintaining Energy   8.1 Change                       8.1.1       Explain Kotter’s dual                        1
+   and Momentum             Approaches                               operating system and its
+                            (Revolution,                             role in transformation
+                            Transformation,              8.1.2       Know the types of change                     1
+                            Evolution)                               approaches: revolution,
+                                                                     and evolution approaches
+                        8.2 The DevOps                   8.2.1       Define the DevOps Return-                    1
+                            Business Case                            on-Investment business
+                                                                     case
+                                                         8.2.2       Explain the key                              2
+                                                                     components of a DevOps
+                                                                     Return on Investment
+                                                                     business case
+                                                         8.2.3       Explain how Lean Canvas                      2
+                                                                     supports framing
+                                                                     investment discussions
+                        8.3 Culture & Climate            8.3.1       Define culture, climate,                     1
+                                                                     organizational culture,
+                                                                     high-trust culture
+                                                         8.3.2       Explain differences                          2
+                                                                     between culture and
+                                                                     climate using
+                                                                     organizational examples
+                                                         8.3.3       Identify the components of                   1
+                                                                     the SCARF model
+
+
+                                    DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   11
+     Category                           Topic                                             Assessment Criteria            BL
+                                        8.4 Technology                        8.4.1       Explain how technology         2
+                                            Transformation                                transformations have
+                                            Acceleration                                  accelerated over the years.
+                                                                              8.4.2       Identify the four industrial   1
+                                                                                          revolutions
+                                        8.5 Trust Require for                 8.5.1       Identify characteristics of    1
+                                            Transformation                                high-trust cultures
+                                                                              8.5.2       Explain trust alliance         2
+                                                                                          principles
+                                                                              8.5.3       Explain how reflection         2
+                                                                                          support organization
+                                                                                          learning.
+                                        8.6 Kolb’s Learning                   8.6.1       Explain Kolb’s learning        2
+                                            Styles &                                      styles and experiential
+                                            Experiential                                  learning model
+                                            Learning                          8.6.2       Describe the value of Dojos    2
+                                                                                          and simulations in skill
+                                                                                          development
+                                                                              8.6.3       Identify how embedding         2
+                                                                                          experimentation promotes
+                                                                                          learning.
+                                                                              8.6.4       Explain how employee           2
+                                                                                          engagement tools can
+                                                                                          support leadership
+                                                                                          decision making.
+                                        8.7 Shared Goals &                    8.7.1       Define goals, shared goals,    1
+                                            Alignment                                     and alignment in a DevOps
+                                                                                          context
+                                                                              8.7.2       Explain the importance of      2
+                                                                                          shared goals across teams
+                                                                              8.7.3       Describe how shared goals      2
+                                                                                          support alignment and
+                                                                                          reduce friction
+                                                                              8.7.4       Explain how fostering          2
+                                                                                          courage and curiosity
+                                                                                          support learning.
+                                        8.8 Cadence & Rhythm                  8.8.1       Define cadence and             1
+                                            in DevOps                                     rhythm in DevOps
+                                                                              8.8.2       Explain the concept of         2
+                                                                                          cadence in DevOps teams
+                                        8.9 Peter Senge’s laws                8.9.1       Explain Peter Senge’s laws     2
+                                            of Systems Thinking                           of Systems Thinking
+                                        8.10 Scaling learning                8.10.1       Explain how to transform       2
+                                             across the                                   local discoveries to global
+                                             organization                                 improvements
+                                        8.11 Coaching                        8.11.1       Practices for DevOps           2
+                                                                                          Leaders to be effective
+                                                                                          coaches
+
+
+
+
+12   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+The candidate is expected to understand, comprehend, and apply the following DevOps concepts
+and vocabulary at Blooms Levels 1 and 2.
+
+•   Agile Coach                                       •    Lead Time
+•   Agile in Large Organizations                      •    Lean Canvas
+•   Artificial Intelligence                           •    Lean Product Development
+•   Bateson Stakeholder Map                           •    Little’s Law
+•   Batch Sizes                                       •    Machine Learning
+•   Beyond Budgeting                                  •    Mental Models
+•   Business Case                                     •    Mindset
+•   Business Value                                    •    Minimum Viable Product
+•   Chain of Goals                                    •    Monitoring Tools
+•   Change Leader Development Model                   •    Neuroscience
+•   Change Management                                 •    Observability
+•   Chapter Lead                                      •    Organization Culture
+•   Chapters                                          •    Organization Model
+•   Cognitive Bias                                    •    Organizational Design
+•   Continuous Flow                                   •    Platform Engineering
+•   Continuous Improvement                            •    People Changes
+•   Continuous Integration                            •    Process Changes
+•   Continuous Delivery                               •    Project Aristotle
+•   Conversation Café                                 •    Psychological Safety
+•   Conway’s Law                                      •    Rework
+•   Cumulative Flow Diagram                           •    SCARF Model
+•   Cultural Iceberg                                  •    Scheduling
+•   Current State Map                                 •    Silos
+•   Cycle Time                                        •    Spotify
+•   Definition Of Done                                •    Squads
+•   Deployment                                        •    StoStaKee
+•   DevOps Adoption                                   •    Strategy Acceptance
+•   DevOps Coach                                      •    Target Operating Models
+•   DevOps Design Principles                          •    Teal Organization
+•   DevOps Kaizen                                     •    Team Dynamics
+•   DevOps Leaders                                    •    The Power of TED
+•   DevSecOps                                         •    Training from the Back of the Room
+•   Design Principles                                 •    Transformational Leadership
+•   Flow                                              •    Tribe Lead
+•   Frequency                                         •    Tribes
+•   Future State Map                                  •    Value Added Time
+•   Generative AI                                     •    Value-Stream Management Platform
+•   Goleman’s 6 Styles of Leadership                  •    Value Stream Mapping
+•   Guilds                                            •    Wait Time
+•   Hand Offs                                         •    Waste
+•   High Performing IT Organization                   •    Wicked Questions
+•   Karpman Drama Triangle                            •    Wilber’s Quadrants
+•   Kolb’s Learning Styles                            •    Work Is Performed
+•   Kotter’s Dual Operating System                    •    World Cafe
+•   Laws of System Thinking
+
+
+
+
+                                   DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited   13
+     5. Exam specification
+     The examination has the following structure:
+
+      Learning Outcome                                                                     Weighting %
+      DevOps and Transformational Leadership                                                  15.0%
+
+      Unlearning Behaviours                                                                   12.5%
+
+      Becoming a DevOps Organization                                                          17.5%
+
+      Measuring to Learn                                                                      5.0%
+
+      Measuring to Improve                                                                    5.0%
+
+      Target Operating Models and Organizational Designs                                      15.0%
+
+      Articulating and Socializing Vision                                                     15.0%
+
+      Maintaining Energy and Momentum                                                         15.0%
+
+      Total                                                                                   100%
+
+
+
+
+14    DEVOPS INSTITUTE® Leader | Syllabus | Copyright © PeopleCert International Limited
+Thank you
+for completing this course!
+Please take a few minutes to give us your feedback on your
+experiences and learning from the course by completing
+the online course evaluation survey here.
+
+
+
+
+                                        PeopleCert has been accredited by Lloyd’s Register,
+                                        UK (now LRQA), in accordance with ISO 14001 for
+       ESG
+                                        Environmental Management since 2006. Recognized
+       Commitment
+                                        through numerous awards, we remain committed to
+                                        ESG leadership and the preservation of our planet.
+

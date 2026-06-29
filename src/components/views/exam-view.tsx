@@ -43,7 +43,7 @@ export function ExamView() {
     setSubmitting(true)
     const timeSpent = activeExam ? activeExam.duration * 60 - timeLeft : 0
     try {
-      const res = await fetch(`/api/exam/${activeExam?.examId}`, {
+      const res = await fetch(`/api/multi/exam/${activeExam?.examId}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

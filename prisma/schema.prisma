@@ -1,4 +1,4 @@
-// ITIL 5 Trainer Database Schema
+// DOTAIBOOKS - Multi-Certification SaaS Platform Schema
 
 generator client {
   provider = "prisma-client-js"
@@ -9,18 +9,158 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// Uploaded study materials (PDFs up to 500MB)
+// ─── Users & Auth ───────────────────────────────────────────────────────────
+
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  MEMBER
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  passwordHash  String
+  name          String?
+  role          String   @default("MEMBER") // SUPER_ADMIN | ADMIN | MEMBER
+  avatar        String?
+  bio           String?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  memberships   Membership[]
+  examAttempts  ExamAttempt[]
+  comments      BlogComment[]
+  subscriptions Subscription[]
+  payments      Payment[]
+}
+
+// Membership: user enrolled in a certification
+model Membership {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  certificationId String
+  certification   Certification @relation(fields: [certificationId], references: [id])
+  planId          String?
+  plan            Plan?    @relation(fields: [planId], references: [id])
+  status          String   @default("active") // active | expired | cancelled
+  startedAt       DateTime @default(now())
+  expiresAt       DateTime?
+  createdAt       DateTime @default(now())
+}
+
+// Subscription to a plan (membership billing)
+model Subscription {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planId          String
+  plan            Plan     @relation(fields: [planId], references: [id])
+  status          String   @default("active") // active | cancelled | past_due
+  paymentMethod   String?
+  startedAt       DateTime @default(now())
+  currentPeriodEnd DateTime?
+  cancelledAt     DateTime?
+  createdAt       DateTime @default(now())
+}
+
+model Plan {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String
+  priceMonthly  Float
+  priceYearly   Float
+  currency      String   @default("USD")
+  features      String   // JSON array of feature strings
+  isPopular     Boolean  @default(false)
+  isActive      Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  memberships   Membership[]
+  subscriptions Subscription[]
+  payments      Payment[]
+}
+
+model Payment {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+  planId        String
+  plan          Plan     @relation(fields: [planId], references: [id])
+  amount        Float
+  currency      String   @default("USD")
+  billingCycle  String   // monthly | yearly
+  status        String   @default("pending") // pending | completed | failed | refunded
+  method        String   @default("card") // card | paypal | etc
+  transactionId String?
+  createdAt     DateTime @default(now())
+}
+
+// ─── Certifications & Content ───────────────────────────────────────────────
+
+model Certification {
+  id            String   @id @default(cuid())
+  slug          String   @unique // itil-5-product | devops-foundation | devops-leader
+  name          String
+  shortName     String
+  provider      String   // PeopleCert, DevOps Institute
+  description   String
+  longDescription String?
+  icon          String?  // emoji or icon name
+  color         String   @default("#0d9488")
+  examDuration  Int      @default(60) // minutes
+  totalQuestions Int     @default(40)
+  passMark      Int      @default(26)
+  passPercentage Float   @default(65)
+  bloomsLevels  String   @default("1,2")
+  badge         String?  // badge image url
+  isPublished   Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  categories  Category[]
+  resources   Resource[]
+  topics      Topic[]
+  questions   Question[]
+  exams       Exam[]
+  memberships Membership[]
+}
+
+model Category {
+  id              String   @id @default(cuid())
+  certificationId String
+  certification   Certification @relation(fields: [certificationId], references: [id], onDelete: Cascade)
+  number          Int
+  name            String
+  weighting       Float
+  color           String   @default("#0d9488")
+  description     String
+  sortOrder       Int      @default(0)
+
+  topics     Topic[]
+  questions  Question[]
+}
+
 model Resource {
   id          String   @id @default(cuid())
+  certificationId String?
+  certification   Certification? @relation(fields: [certificationId], references: [id], onDelete: SetNull)
   fileName    String
-  fileType    String   // e.g. "application/pdf"
-  fileSize    Int      // bytes
-  category    String   // "syllabus" | "sample-paper" | "answers" | "glossary" | "release-notes" | "other"
+  fileType    String   @default("application/pdf")
+  fileSize    Int
+  category    String   // syllabus | sample-paper | answers | glossary | blueprint | other
   title       String
   description String?
-  content     String   // extracted text content
+  content     String   // extracted text
   pageCount   Int      @default(0)
-  status      String   @default("processed") // "processing" | "processed" | "failed"
+  status      String   @default("processed")
+  uploadedBy  String?  // user id
   uploadedAt  DateTime @default(now())
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -28,93 +168,176 @@ model Resource {
   topics Topic[]
 }
 
-// AI-generated study topics organized by syllabus category
 model Topic {
   id            String   @id @default(cuid())
-  categoryId    String   // e.g. "1", "2" ... matches syllabus category number
-  categoryName  String   // e.g. "Digital products and services"
-  subTopicId    String   // e.g. "1.1", "2.1"
+  certificationId String
+  certification   Certification @relation(fields: [certificationId], references: [id], onDelete: Cascade)
+  categoryId    String?
+  category      Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  categoryIdNum String   // e.g. "1", "2"
+  categoryName  String
+  subTopicId    String   // e.g. "1.1"
   title         String
-  summary       String   // short summary
-  keyConcepts   String   // JSON array of key concepts
-  content       String   // full markdown explanation
-  bloomsLevel   Int      @default(2) // 2 or 3
-  syllabusRef   String?  // e.g. "1.1.1, 2.1, 2.2"
-  difficulty    String   @default("medium") // easy | medium | hard
-  visualPrompt  String?  // prompt used for image generation
-  imageUrl      String?  // generated visual representation (premium image)
-  videoUrl      String?  // generated short explainer video (5-10s)
-  videoPrompt   String?  // prompt used for video generation
+  summary       String
+  keyConcepts   String   // JSON array
+  content       String   // markdown
+  bloomsLevel   Int      @default(2)
+  syllabusRef   String?
+  difficulty    String   @default("medium")
+  visualPrompt  String?
+  imageUrl      String?
+  videoUrl      String?
+  videoPrompt   String?
   order         Int      @default(0)
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
   resourceId String?
-  resource   Resource? @relation(fields: [resourceId], references: [id])
+  resource   Resource? @relation(fields: [resourceId], references: [id], onDelete: SetNull)
 }
 
-// Question bank for practice exams
 model Question {
   id             String   @id @default(cuid())
-  categoryId     String   // syllabus category 1-10
+  certificationId String
+  certification   Certification @relation(fields: [certificationId], references: [id], onDelete: Cascade)
+  categoryId     String?
+  category       Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  categoryIdNum  String
   categoryName   String
   questionText   String
-  questionType   String   // "standard" | "missing-word" | "list" | "negative"
-  options        String   // JSON array of 4 options
-  correctAnswer  Int      // index 0-3 of correct option
-  explanation    String   // why the correct answer is correct
-  rationales     String   // JSON: rationale per option
+  questionType   String   // standard | missing-word | list | negative
+  options        String   // JSON array of 4
+  correctAnswer  Int
+  explanation    String
+  rationales     String   // JSON per option
   bloomsLevel    Int      @default(2)
   difficulty     String   @default("medium")
-  scenarioContext String? // optional scenario text
-  sourceRef      String?  // reference to syllabus/source
+  scenarioContext String?
+  sourceRef      String?
   createdAt      DateTime @default(now())
 }
 
-// Exam instance (practice or final)
 model Exam {
   id          String   @id @default(cuid())
+  certificationId String
+  certification   Certification @relation(fields: [certificationId], references: [id], onDelete: Cascade)
   title       String
-  type        String   // "practice" | "final"
-  duration    Int      // minutes
+  type        String   // practice | final
+  duration    Int
   totalMarks  Int      @default(40)
-  passMark    Int      @default(28)
-  questionIds String   // JSON array of question IDs
-  questionCount Int    @default(40)
+  passMark    Int
+  questionIds String   // JSON array
+  questionCount Int
   createdAt   DateTime @default(now())
 
   attempts ExamAttempt[]
 }
 
-// User's attempt at an exam
 model ExamAttempt {
   id          String   @id @default(cuid())
   examId      String
-  exam        Exam     @relation(fields: [examId], references: [id])
-  answers     String   // JSON: { questionId: selectedIndex }
+  exam        Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  certificationId String
+  answers     String   // JSON
   score       Int      @default(0)
   totalMarks  Int      @default(40)
   percentage  Float    @default(0)
   passed      Boolean  @default(false)
-  timeSpent   Int      @default(0) // seconds
+  timeSpent   Int      @default(0)
   startedAt   DateTime @default(now())
   completedAt DateTime?
-  status      String   @default("in-progress") // "in-progress" | "completed"
-  categoryBreakdown String? // JSON: { categoryId: { correct, total } }
-  weakAreas   String?  // JSON array of weak category IDs
+  status      String   @default("in-progress")
+  categoryBreakdown String?
+  weakAreas   String?
   createdAt   DateTime @default(now())
 }
 
-// Readiness assessment
+// ─── Landing Page & CMS ─────────────────────────────────────────────────────
+
+model LandingSection {
+  id          String   @id @default(cuid())
+  sectionKey  String   @unique // hero | features | stats | cta | testimonials | faq
+  title       String
+  subtitle    String?
+  content     String   // JSON: flexible content
+  isVisible   Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  updatedAt   DateTime @updatedAt
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  name      String
+  role      String?
+  company   String?
+  avatar    String?
+  content   String
+  rating    Int      @default(5)
+  isVisible Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  excerpt     String
+  content     String   // markdown
+  coverImage  String?
+  tags        String   // JSON array
+  authorId    String?
+  authorName  String?
+  status      String   @default("draft") // draft | published
+  publishedAt DateTime?
+  views       Int      @default(0)
+  seoTitle    String?
+  seoDescription String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  comments BlogComment[]
+}
+
+model BlogComment {
+  id        String   @id @default(cuid())
+  postId    String
+  post      BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  name      String
+  email     String
+  content   String
+  isApproved Boolean @default(false)
+  createdAt DateTime @default(now())
+}
+
+// ─── Site Settings (key-value) ──────────────────────────────────────────────
+
+model Setting {
+  id    String @id @default(cuid())
+  key   String @unique
+  value String // JSON string
+  group String @default("general") // general | seo | email | payment | notifications | social
+  updatedAt DateTime @updatedAt
+}
+
+// Readiness record (computed, one per user per certification)
 model Readiness {
   id              String   @id @default(cuid())
+  userId          String
+  certificationId String
   totalAttempts   Int      @default(0)
   passedAttempts  Int      @default(0)
   averageScore    Float    @default(0)
   bestScore       Float    @default(0)
-  recentScores    String   // JSON array of recent percentages
-  categoryMastery String   // JSON: { categoryId: { attempts, correct, mastery } }
+  recentScores    String   @default("[]")
+  categoryMastery String   @default("{}")
   ready           Boolean  @default(false)
-  recommendation  String
+  recommendation  String   @default("")
   updatedAt       DateTime @updatedAt
+
+  @@unique([userId, certificationId])
 }

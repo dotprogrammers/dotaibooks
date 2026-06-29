@@ -1,0 +1,39 @@
+                                                                  BENEFITS
+                                                                  Well-led DevOps teams achieve more frequent, secure, quality code deployments,
+                                                                  faster lead time from commit to deploy, faster MTTR, lower change failure rates,
+           DevOps Leader®                                         and team satisfaction.
+            BLUEPRINT
+
+            People that lead teams and
+            organizations that are on a DevOps
+            journey sponsor development of
+            generative culture, support their
+            teams, and inspire actions to                         Measure to Learn                                     Models and Organization Designs
+            continuously transform their                          Employ value-stream mapping to visualize             Design the organization aligned with the vision and
+            teams to higher levels of                             ﬂow, determine metrics and current state of          improve communication between cross-functional
+            organization performance.                             value-added tasks and waste to guide                 teams using concepts from Target Operating
+                                                                  improvements.                                        Models, Conway’s Law, SAFe, and Spotify.
+
+
+
+
+            Transformational Leadership                           Measure to Improve                                   Articulate and Socialize Vision
+            Project a vision, provide intellectual stimulation,   Use metrics and future state value stream            Passionately champion a vision with support from
+            inspire collaborative communication, support          mapping to identify improvement opportunities        top management. Relentlessly promote changes
+            speciﬁc behaviors, and pro-actively recognize         in People, Process and Tools.                        across the organization incrementally to eﬀect
+            personal behaviors.                                                                                        changes.
+
+
+
+
+            Becoming a DevOps Organization                        Unlearning Behaviors                                 Energy and Momentum
+            Engage early adopters in small cross-functional       Fearlessly let go outdated information, work         Evangelize measurable business outcomes gained
+            teams with shared goals to improve ﬂow of their       without bias to enthusiastically take in new         with the improved value stream while honestly
+            value streams using small batch sizes, tool, and      information that improves eﬀective decision-making   contrasting prior performance.
+            incremental processes.                                and improve ﬂow of work.
+
+
+
+
+© PeopleCert | DEVOPS INSTITUTE                                                                                                                           peoplecert.org/devops
+
