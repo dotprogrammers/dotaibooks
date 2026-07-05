@@ -1,12 +1,14 @@
 // DOTAIBOOKS - Multi-Certification SaaS Platform Schema
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongodb"]
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
+  provider     = "mongodb"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
 }
 
 // ─── Users & Auth ───────────────────────────────────────────────────────────
