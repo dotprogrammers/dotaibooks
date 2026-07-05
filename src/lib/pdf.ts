@@ -1,6 +1,19 @@
-import fs from 'fs'
-import path from 'path'
-import { execSync } from 'child_process'
+import { put } from '@vercel/blob'
+
+/**
+ * Extract text from a PDF buffer using pdf-parse.
+ * Returns the extracted text and page count.
+ */
+export async function extractPdfTextFromBuffer(buffer: Buffer): Promise<{ text: string; pageCount: number }> {
+  try {
+    const pdfParse = (await import('pdf-parse')).default
+    const data = await pdfParse(buffer)
+    return { text: data.text, pageCount: data.numpages }
+  } catch (err) {
+    console.error('[PDF extract] Error:', (err as Error).message)
+    return { text: '', pageCount: 0 }
+  }
+}
 
 /**
  * Extract text from a PDF file using pdftotext (preferred) or pdf-parse fallback.
@@ -8,17 +21,17 @@ import { execSync } from 'child_process'
  */
 export async function extractPdfText(filePath: string): Promise<{ text: string; pageCount: number }> {
   try {
-    // Try pdftotext first (fast and reliable)
+    const fs = await import('fs')
     const outPath = filePath + '.txt'
+    const { execSync } = await import('child_process')
     execSync(`pdftotext -layout "${filePath}" "${outPath}"`, { timeout: 60000 })
     const text = fs.readFileSync(outPath, 'utf-8')
     fs.unlinkSync(outPath)
-    // Estimate page count by form feeds
     const pageCount = text.split('\f').length - 1 || Math.ceil(text.length / 3000)
     return { text, pageCount: Math.max(1, pageCount) }
   } catch {
-    // Fallback to pdf-parse
     try {
+      const fs = await import('fs')
       const pdfParse = (await import('pdf-parse')).default
       const dataBuffer = fs.readFileSync(filePath)
       const data = await pdfParse(dataBuffer)
@@ -31,16 +44,14 @@ export async function extractPdfText(filePath: string): Promise<{ text: string; 
 }
 
 /**
- * Save an uploaded file to the uploads directory.
+ * Save an uploaded file to Vercel Blob and return the public URL.
  */
 export async function saveUploadedFile(buffer: Buffer, fileName: string): Promise<string> {
-  const uploadDir = path.join(process.cwd(), 'uploads')
-  if (!fs.existsSync(uploadDir)) {
-    fs.mkdirSync(uploadDir, { recursive: true })
-  }
-  const filePath = path.join(uploadDir, fileName)
-  fs.writeFileSync(filePath, buffer)
-  return filePath
+  const blob = await put(`uploads/${fileName}`, buffer, {
+    access: 'public',
+    contentType: 'application/pdf',
+  })
+  return blob.url
 }
 
 /**

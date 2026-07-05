@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { db } from '@/lib/db'
 import { getUserFromToken, getSessionToken, isAdmin } from '@/lib/auth'
-import { extractPdfText, saveUploadedFile, categorizeFile, MAX_UPLOAD_SIZE } from '@/lib/pdf'
+import { extractPdfTextFromBuffer, saveUploadedFile, categorizeFile, MAX_UPLOAD_SIZE } from '@/lib/pdf'
 
 export const runtime = 'nodejs'
 export const maxDuration = 300
@@ -32,9 +32,9 @@ export async function POST(req: NextRequest) {
     for (const file of files) {
       if (!file.name.toLowerCase().endsWith('.pdf')) continue
       const buffer = Buffer.from(await file.arrayBuffer())
-      const filePath = await saveUploadedFile(buffer, `${Date.now()}-${file.name}`)
-      const { text, pageCount } = await extractPdfText(filePath)
+      const { text, pageCount } = await extractPdfTextFromBuffer(buffer)
       const { category, title } = categorizeFile(file.name)
+      const fileUrl = await saveUploadedFile(buffer, `${Date.now()}-${file.name}`)
       const existing = await db.resource.findFirst({ where: { fileName: file.name } })
       if (existing) {
         await db.resource.update({ where: { id: existing.id }, data: { title, category, certificationId: certificationId || existing.certificationId, fileSize: file.size, content: text, pageCount, status: 'processed', uploadedBy: user.id } })
